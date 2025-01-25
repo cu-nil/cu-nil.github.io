@@ -14,5 +14,5 @@ exclude:
   - tailwind.config.js
   - yarn.lock
 
-# destination: docs/
+destination: docs/
 
