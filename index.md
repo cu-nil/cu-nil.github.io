@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: "Home"
 ---
 
@@ -10,7 +10,7 @@ title: "Home"
     </span>
 
     <span class="uppercase line-through font-light">
-      A Jekyll + Tailwind CSS boilerplate
+      A Jekyll + Tailwind CSS boilerplate HELLO
     </span>
   </h1>
 
