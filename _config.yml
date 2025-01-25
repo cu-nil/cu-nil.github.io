@@ -1,0 +1,15 @@
+url: ''
+baseurl: ''
+title: 'CU Narrative Intelligence Lab'
+
+plugins:
+  - jekyll-postcss-v2
+
+postcss:
+  cache: false
+
+exclude:
+  - package.json
+  - postcss.config.js
+  - tailwind.config.js
+  - yarn.lock
