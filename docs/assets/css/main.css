@@ -554,9 +554,6 @@
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
   }
-  .mb-12 {
-    margin-bottom: calc(var(--spacing) * 12);
-  }
   .block {
     display: block;
   }
@@ -574,9 +571,6 @@
   }
   .max-w-lg {
     max-width: var(--container-lg);
-  }
-  .max-w-xl {
-    max-width: var(--container-xl);
   }
   .flex-initial {
     flex: 0 auto;
@@ -647,9 +641,6 @@
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
   }
-  .py-24 {
-    padding-block: calc(var(--spacing) * 24);
-  }
   .pt-2 {
     padding-top: calc(var(--spacing) * 2);
   }
@@ -674,9 +665,6 @@
   .pl-7 {
     padding-left: calc(var(--spacing) * 7);
   }
-  .text-center {
-    text-align: center;
-  }
   .text-right {
     text-align: right;
   }
@@ -686,10 +674,6 @@
   .text-2xl {
     font-size: var(--text-2xl);
     line-height: var(--tw-leading, var(--text-2xl--line-height));
-  }
-  .text-4xl {
-    font-size: var(--text-4xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-5xl {
     font-size: var(--text-5xl);
@@ -714,10 +698,6 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
-  }
-  .font-light {
-    --tw-font-weight: var(--font-weight-light);
-    font-weight: var(--font-weight-light);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
@@ -754,9 +734,6 @@
   }
   .uppercase {
     text-transform: uppercase;
-  }
-  .line-through {
-    text-decoration-line: line-through;
   }
   .hover\:text-sky-700 {
     &:hover {

@@ -1,18 +1,11 @@
 ---
-layout: home
+layout: default
 title: "Home"
 ---
 
-<div class="py-24 max-w-xl mx-auto text-center">
-  <h1 class="text-xl mb-12">
-    <span class="text-4xl block">
-      Jekyllwind
-    </span>
+{% include cards.html %}
 
-    <span class="uppercase line-through font-light">
-      A Jekyll + Tailwind CSS boilerplate HELLO
-    </span>
-  </h1>
+Introductory paragraph by Jessica goes here? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-  <h2 class="line-through">cBuild something beautiful with it ✌️</h2>
-</div>
+{% include research.html %}
+
