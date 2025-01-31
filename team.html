@@ -1,0 +1,16 @@
+---
+title: Team
+---
+
+<h1>Team</h1>
+
+{% for teamMember in site["teamMembers"] %}
+<div class="dennis-card">
+  <h2>{{ teamMember.name }}</h2>
+  <small>{{teamMember.affiliation}}</small>
+  <img src="/assets/img/teamMembers/{{teamMember.image}}" />
+  <p><a href={{teamMember.externalUrl}}>{{teamMember.externalUrl}}</a></p>
+
+  {{teamMember.content}}
+</div>
+{% endfor %}
