@@ -758,13 +758,6 @@
   .line-through {
     text-decoration-line: line-through;
   }
-  .hover\:text-sky-600 {
-    &:hover {
-      @media (hover: hover) {
-        color: var(--color-sky-600);
-      }
-    }
-  }
   .hover\:text-sky-700 {
     &:hover {
       @media (hover: hover) {
