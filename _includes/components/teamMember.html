@@ -1,0 +1,12 @@
+<div class="teamMember-component w-1/4">
+  <h2>{{ include.name }}</h2>
+  <small>{{include.affiliation}}</small>
+  <img 
+    class="w-1/6"
+    src="/assets/img/teamMembers/{{include.image}}" 
+    alt="Profile photo of {{ include.name }}"/>
+  <p><a href={{include.externalUrl}}>{{include.externalUrl}}</a></p>
+
+  {{include.content}}
+</div>
+
