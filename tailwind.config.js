@@ -9,7 +9,11 @@ module.exports = {
   ],
   theme: {
     theme: {
-      extend: {},
+        extend: {
+                    fontFamily: {
+                        "lato": ['Lato', 'sans-serif']
+                    }
+            },
     },
   },
   plugins: []
