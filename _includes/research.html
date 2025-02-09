@@ -1,45 +1,38 @@
-<div id="research" class="">
+<div class="mb-6">
     <div class="flex text-xl font-bold tracking-tight justify-end">
         <span class="bg-sky-600 px-2 text-white font-ibmserif">Research Focus </span>
     </div>
 
-    <span class="flex text-right justify-end mb-0 text-lg text-gray-500 font-ibmsans">
+    <div class="flex text-right justify-end mb-0 text-lg text-gray-500 font-ibmsans">
         Projects that highlight our work.
-    </span>
+    </div>
 </div>
 
-<div id=gallery class="mx-4 lg:mx-8">
+<div class=" mx-4 lg:mx-8 justify-center items-center">
 {% for case in site.data.cases %}
 
     <!-- Card -->
-    <div class="lg:flex mb-6 lg:mb-16">
+    <div class="grid grid-cols-3 mb-8 lg:mb-16 gap-4 ">
 
-        <div class="h-38 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none
-         lg:rounded-l text-center overflow-hidden" style="background-image: url('{{
-         case.img_url }}')">
+        <div class="mb-8 mr-8 col-span-2">
 
-        </div>
-
-        <div class="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col
-         justify-between leading-normal">
-
-            <div class="mb-8">
-
-                <div class="flex items-center">
-                  <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-4-svg1.svg" alt="line" />
-                  <p class="text-base leading-none text-gray-500 ml-2"> {{ case.tag }} </p>
-                </div>
-
-                <div class="text-gray-900 font-bold text-xl mb-2 font-ibmsans">
-                    {{ case.title }}
-                </div>
-
-                <p class="text-base leading-6 text-gray-600 mt-2 font-ibmserif">
-                    {{ case.text }}
-                </p>
-
+            <div class="flex items-center">
+              <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-4-svg1.svg" alt="line" />
+              <p class="text-base leading-none text-gray-500 ml-2"> {{ case.tag }} </p>
             </div>
+
+            <div class="text-gray-900 font-bold text-xl mb-2 font-ibmsans">
+                {{ case.title }}
+            </div>
+
+            <p class="p-6 text-base leading-6 text-gray-600 mt-2 font-ibmserif bg-gray-100">
+                {{ case.text }}
+            </p>
+
         </div>
+
+        <div class="bg-cover col-span-1" style="background-image: url('{{case.img_url }}')"></div>
+
     </div>
 
 {% endfor %}
