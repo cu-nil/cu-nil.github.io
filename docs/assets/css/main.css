@@ -528,11 +528,11 @@
   .relative {
     position: relative;
   }
-  .col-span-1 {
-    grid-column: span 1 / span 1;
+  .order-2 {
+    order: 2;
   }
-  .col-span-2 {
-    grid-column: span 2 / span 2;
+  .order-3 {
+    order: 3;
   }
   .row-span-2 {
     grid-row: span 2 / span 2;
@@ -561,9 +561,6 @@
   .mr-3 {
     margin-right: calc(var(--spacing) * 3);
   }
-  .mr-8 {
-    margin-right: calc(var(--spacing) * 8);
-  }
   .mb-0 {
     margin-bottom: calc(var(--spacing) * 0);
   }
@@ -575,9 +572,6 @@
   }
   .mb-8 {
     margin-bottom: calc(var(--spacing) * 8);
-  }
-  .mb-12 {
-    margin-bottom: calc(var(--spacing) * 12);
   }
   .ml-2 {
     margin-left: calc(var(--spacing) * 2);
@@ -597,17 +591,20 @@
   .inline-flex {
     display: inline-flex;
   }
+  .h-10 {
+    height: calc(var(--spacing) * 10);
+  }
   .w-1\/4 {
     width: calc(1/4 * 100%);
   }
   .w-1\/6 {
     width: calc(1/6 * 100%);
   }
+  .w-full {
+    width: 100%;
+  }
   .max-w-lg {
     max-width: var(--container-lg);
-  }
-  .max-w-xl {
-    max-width: var(--container-xl);
   }
   .-skew-y-3 {
     --tw-skew-y: skewY(calc(3deg * -1));
@@ -616,11 +613,11 @@
   .transform {
     transform: var(--tw-rotate-x) var(--tw-rotate-y) var(--tw-rotate-z) var(--tw-skew-x) var(--tw-skew-y);
   }
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-  .grid-cols-3 {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .items-center {
     align-items: center;
@@ -636,6 +633,9 @@
   }
   .gap-4 {
     gap: calc(var(--spacing) * 4);
+  }
+  .rounded-lg {
+    border-radius: var(--radius-lg);
   }
   .bg-amber-100 {
     background-color: var(--color-amber-100);
@@ -655,8 +655,8 @@
   .bg-white {
     background-color: var(--color-white);
   }
-  .bg-cover {
-    background-size: cover;
+  .object-cover {
+    object-fit: cover;
   }
   .p-6 {
     padding: calc(var(--spacing) * 6);
@@ -673,9 +673,6 @@
   .py-0\.5 {
     padding-block: calc(var(--spacing) * 0.5);
   }
-  .py-24 {
-    padding-block: calc(var(--spacing) * 24);
-  }
   .pr-1 {
     padding-right: calc(var(--spacing) * 1);
   }
@@ -688,9 +685,6 @@
   .pl-16 {
     padding-left: calc(var(--spacing) * 16);
   }
-  .text-center {
-    text-align: center;
-  }
   .text-right {
     text-align: right;
   }
@@ -702,10 +696,6 @@
   }
   .font-sans {
     font-family: var(--font-sans);
-  }
-  .text-4xl {
-    font-size: var(--text-4xl);
-    line-height: var(--tw-leading, var(--text-4xl--line-height));
   }
   .text-5xl {
     font-size: var(--text-5xl);
@@ -735,10 +725,6 @@
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
   }
-  .font-light {
-    --tw-font-weight: var(--font-weight-light);
-    font-weight: var(--font-weight-light);
-  }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
@@ -765,17 +751,56 @@
   .text-white {
     color: var(--color-white);
   }
-  .uppercase {
-    text-transform: uppercase;
-  }
-  .line-through {
-    text-decoration-line: line-through;
-  }
   .hover\:text-sky-700 {
     &:hover {
       @media (hover: hover) {
         color: var(--color-sky-700);
       }
+    }
+  }
+  .sm\:h-15 {
+    @media (width >= 40rem) {
+      height: calc(var(--spacing) * 15);
+    }
+  }
+  .md\:order-2 {
+    @media (width >= 48rem) {
+      order: 2;
+    }
+  }
+  .md\:order-3 {
+    @media (width >= 48rem) {
+      order: 3;
+    }
+  }
+  .md\:col-span-1 {
+    @media (width >= 48rem) {
+      grid-column: span 1 / span 1;
+    }
+  }
+  .md\:col-span-2 {
+    @media (width >= 48rem) {
+      grid-column: span 2 / span 2;
+    }
+  }
+  .md\:col-span-3 {
+    @media (width >= 48rem) {
+      grid-column: span 3 / span 3;
+    }
+  }
+  .md\:h-auto {
+    @media (width >= 48rem) {
+      height: auto;
+    }
+  }
+  .md\:grid-cols-3 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .md\:pr-6 {
+    @media (width >= 48rem) {
+      padding-right: calc(var(--spacing) * 6);
     }
   }
   .md\:text-xl {
