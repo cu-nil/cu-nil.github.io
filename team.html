@@ -5,12 +5,13 @@ layout: default
 
 <h1>Team</h1>
 
-{% for teamMember in site["teamMembers"] %}
-  {% include components/teamMember.html 
-    name = teamMember.name
-    affiliation = teamMember.affiliation
-    image = teamMember.image
-    externalUrl = teamMember.externalUrl
-    content = teamMember.content
-  %}
-{% endfor %}
+<div class="grid-cols-1 md:grid-cols-4 grid gap-4">
+  {% for teamMember in site.teamMembers %}
+    {% include components/teamMember.html name = teamMember.name
+      affiliation = teamMember.affiliation
+      image = teamMember.image
+      externalUrl = teamMember.externalUrl
+      content = teamMember.content
+    %}
+  {% endfor %}
+</div>
