@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby file: ".ruby-version"
 
 group :jekyll_plugins do
-  gem 'jekyll'
+  gem 'jekyll', "~> 4.0.0"
   gem 'jekyll-postcss-v2'
   gem 'webrick'
   gem 'base64'
