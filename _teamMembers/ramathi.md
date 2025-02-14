@@ -1,5 +1,5 @@
 ---
-name: Moacir P. de Sá Pereira
+name: Ramathi Bandaranyake
 affiliation: Department of English and Comparative Literature
 university: Columbia University
 externalUrl: 

@@ -1,17 +1,9 @@
-- name: Dennis Yi Tenen
-  title: Faculty Moderator
-  photo: assets/images/denten.jpg
-  externalUrl: https://dennistenen.com/
-  bio: >
-    Associate Professor of English and Comparative Literature at Columbia
-    University. Co-director at the Center for Comparative Media. Recent publications
-    include *Literary Theory for Robots* (Norton, 2024).
+---
+name: Dennis Yi Tenen
+affiliation: Department of English and Comparative Literature
+university: Columbia University
+externalUrl: https://dennistenen.com/
+image: denten.jpg
+---
 
-- name: Moacir P. de Sá Pereira
-  title: Research Data Librarian
-  affiliation: Columbia University Libraries
-  externalUrl: https://moacir.com
-  image: moacir.jpg
-  bio: >
-    Moacir is the Research Data Librarian at [Columbia University Libraries](https://library.columbia.edu).
-
+Associate Professor of English and Comparative Literature at Columbia University. Co-director at the Center for Comparative Media. Recent publications include *Literary Theory for Robots* (Norton, 2024).
