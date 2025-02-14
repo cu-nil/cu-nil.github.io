@@ -1,5 +1,5 @@
 ---
-name: Ramathi Bandaranyake
+name: Ramathi Bandaranayake
 affiliation: Department of English and Comparative Literature
 university: Columbia University
 externalUrl: 
