@@ -1,4 +1,12 @@
 ---
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif');
 @import "tailwindcss";
+
+
+@theme {
+  --font-ibmserif: "IBM Plex Serif", serif;
+  --font-ibmsans: "IBM Plex Sans", sans-serif;
+}

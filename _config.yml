@@ -15,4 +15,5 @@ exclude:
   - yarn.lock
 
 destination: docs/
-
+collections:
+  - teamMembers
