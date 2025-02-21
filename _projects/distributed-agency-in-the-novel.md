@@ -1,4 +1,5 @@
 ---
+highlight: true
 title: Distributed Agency in the Novel
 date: 2018-04-02
 tag: collective-thought

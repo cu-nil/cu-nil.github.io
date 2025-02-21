@@ -1,4 +1,5 @@
 ---
+highlight: true
 title: Folk Skepticism
 date: 2021-11-10
 tag: dis-information

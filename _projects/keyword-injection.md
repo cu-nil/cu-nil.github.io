@@ -1,4 +1,5 @@
 ---
+highlight: true
 title: Keyword Injection
 date: 2025-01-01
 tag: influence
