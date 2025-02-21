@@ -3,11 +3,9 @@ layout: default
 ---
 
 <div>
-    <h1>{{ page.tag }}</h1>
-
-  <ul>
-    {% for project in site.projects %}
-    <li> {{project.title}}</li>
-    {% endfor %}
-  </ul>
+    <h1>{{ page.display-name }}</h1>
+    {% assign projects = site.projects | where:"tag", page.tag %}
+    {% include components/projects/collection.html
+      projects=projects
+    %}
 </div>
