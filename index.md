@@ -3,7 +3,15 @@ layout: default
 title: "Home"
 ---
 
-Introductory paragraph by Jessica goes here? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The Narrative Intelligence Lab at Columbia University is a research collective dedicated to
+exploring the mechanics of storytelling, influence, and collective thought in the digital age.
+Situated at the intersection of literary studies, media theory, and computational analysis,
+we investigate how narratives shape public discourse, reinforce or challenge ideological
+structures, and evolve across networks. Our work spans disinformation ecosystems, the history
+and future of propaganda, emergent storytelling in AI and social media, and the role of
+literature in an era of algorithmic culture. By combining traditional humanities scholarship
+with data-driven methodologies, we seek to understand not only how narratives move through
+societies but how they encode power, agency, and resistance in an increasingly mediated world.
 
 {% include research.html %}
 
