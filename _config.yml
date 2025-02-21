@@ -17,6 +17,7 @@ exclude:
 collections:
   teamMembers:
   projects:
+      output: true
   category:
       output: true
 
