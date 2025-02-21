@@ -5,7 +5,7 @@ layout: default
 
 <div>
     <h1>Projects</h1>
-    {% assign projects = site.projects | sort "date" | reverse%}
+    {% assign projects = site.projects | sort: "date" | reverse%}
     {% include components/projects/collection.html
       projects=site.projects
     %}

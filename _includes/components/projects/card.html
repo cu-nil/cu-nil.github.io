@@ -1,10 +1,10 @@
 <div class="projects-card mx-4 lg:mx-8 grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 lg:mb-16 items-center">
     <!-- Tag & Title (Always First) -->
     <div class="md:col-span-3">
-      {% if include.display-name %}
+      {% if include.category-name %}
         <div class="flex items-center">
             <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-4-svg1.svg" alt="line" />
-            <p class="text-base leading-none text-gray-500 ml-2">{{ include.display-name }}</p>
+            <p class="text-base leading-none text-gray-500 ml-2">{{ include.category-name }}</p>
         </div>
       {% endif %}
 
