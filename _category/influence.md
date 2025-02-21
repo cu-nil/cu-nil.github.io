@@ -1,0 +1,4 @@
+---
+tag: influence
+permalink: "/influence"
+---

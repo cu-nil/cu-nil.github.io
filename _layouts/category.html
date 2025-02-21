@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div>
+    <h1>{{ page.tag }}</h1>
+
+  <ul>
+    {% for project in site.projects %}
+    <li> {{project.title}}</li>
+    {% endfor %}
+  </ul>
+</div>

@@ -15,4 +15,15 @@ exclude:
   - yarn.lock
 
 collections:
-  - teamMembers
+  teamMembers:
+  projects:
+  category:
+      output: true
+
+defaults:
+  - 
+    scope: 
+      path: ""
+      type: category
+    values:
+      layout: "category"
