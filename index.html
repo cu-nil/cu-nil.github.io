@@ -3,23 +3,44 @@ layout: default
 title: "Home"
 ---
 
-<p id="generated-text"></p>
+<div class="mx-4 lg:mx-8">
 
-<div class="my-4 sm:my-0">
-    <div class="flex text-xl justify-end">
-        <span class="bg-sky-600 px-2 text-white font-ibmsans pr-8 text-base lg:text-xl">Research</span>
+    <div class="font-ibmsans my-4 p-4 space-y-2">
+
+        <p class="">
+
+            <!-- Solid Inner Dot -->
+            <!--<span class="relative inline-flex h-3 w-3 rounded-full bg-yellow-500 animate-pulse">
+            </span>-->
+
+            <span> Some stories are written. Others emerge synthetically, in collectives. How
+            do they shape our personal and shared beliefs? The Narrative Intelligence Lab
+            combines expertise in language, literature, computation, and media analysis.
+
+            </span>
+
+            <span id="generated-text" class="font-ibmsans"></span>
+            <a href="#footnote" class="hover:text-sky-700 align-super text-xs font-ibmserif">5</a>
+        </p>
+
     </div>
 
-    <div class="flex text-right justify-end text-base text-gray-500 font-ibmsans">
-        Projects that highlight our work
-    </div>
-</div>
+    <div class="my-4 sm:my-0">
+        <div class="flex text-xl justify-end">
+            <span class="bg-sky-600 px-2 text-white font-ibmsans pr-8 text-base lg:text-xl">Research</span>
+        </div>
 
-<div id="content-for-generated-text">
-  {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
-  {% include components/projects/collection.html
-      show-category-name=true
-      projects=projects
-  %}
+        <div class="flex text-right justify-end text-base text-gray-500 font-ibmsans">
+            Projects that highlight our work
+        </div>
+    </div>
+
+    <div id="content-for-generated-text">
+      {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
+      {% include components/projects/collection.html
+          show-category-name=true
+          projects=projects
+      %}
+    </div>
 </div>
 
