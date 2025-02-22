@@ -14,12 +14,15 @@ exclude:
   - tailwind.config.js
   - yarn.lock
 
+collections_dir: collections  # Store all collections inside a single "collections" folder
+
 collections:
   teamMembers:
   projects:
-      output: true
+    output: true  # Allow individual pages
+    permalink: /projects/:path/
   category:
-      output: true
+    output: true
 
 defaults:
   - 
