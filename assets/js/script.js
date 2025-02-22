@@ -15,7 +15,6 @@ const generateSomeText = async (targetDiv) => {
       const content = doc.querySelector("div#content-for-generated-text");
       if(content){
         const textContent = content.textContent;
-        console.log("in summary");
 
         return generateSummary(textContent);
       } else {
@@ -30,7 +29,6 @@ const generateSomeText = async (targetDiv) => {
 }
 
 const generateSummary = async (text) => {
-    console.log(apiKey);
     const apiUrl = "https://api.nlpcloud.io/v1/bart-large-cnn/summarization";
 
     try {
@@ -40,13 +38,12 @@ const generateSummary = async (text) => {
                 'Content-Type': 'application/json',
                 'Authorization': `Token ${apiKey}`
             },
-            body: JSON.stringify({text}) // Replace with the correct model name
+            body: JSON.stringify({text}) 
         });
         if (!response.ok) {
             throw new Error(`API request failed with status ${response.status}`);
         }
         const data = await response.json();
-        console.log(data);
 
         return data.summary_text;
     } catch (error) {
