@@ -17,7 +17,7 @@ exclude:
 collections_dir: collections  # Store all collections inside a single "collections" folder
 
 collections:
-  teamMembers:
+  team:
   projects:
     output: true  # Allow individual pages
     permalink: /projects/:path/
@@ -25,8 +25,8 @@ collections:
     output: true
 
 defaults:
-  - 
-    scope: 
+  -
+    scope:
       path: ""
       type: category
     values:

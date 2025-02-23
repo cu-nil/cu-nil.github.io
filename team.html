@@ -13,13 +13,36 @@ layout: default
     </div>
 </div>
 
-<div class="mt-10 grid-cols-1 md:grid-cols-4 grid gap-4">
-  {% for teamMember in site.teamMembers %}
-    {% include components/teamMember.html name = teamMember.name
-      affiliation = teamMember.affiliation
-      image = teamMember.image
-      externalUrl = teamMember.externalUrl
-      content = teamMember.content
-    %}
-  {% endfor %}
+<div class="mt-4 mb-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto max-w-5xl px-4">
+    {% for member in site.team %}
+        <div class="bg-white rounded-md p-3 flex flex-col items-start gap-3"> <!-- Aligns everything left -->
+
+            <!-- Profile Image (Left-Aligned for Balance) -->
+            <img class="w-20 h-20 rounded-xl object-cover self-start" 
+                 src="/assets/images/team/{{member.image}}" 
+                 alt="Profile photo of {{ member.name }}" />
+
+            <!-- Title Section -->
+            <div class="flex items-center">
+                <img src="https://tuk-cdn.s3.amazonaws.com/can-uploader/blog-4-svg1.svg" alt="line" />
+                <p class="text-sm leading-none text-gray-500 ml-2 font-ibmsans text-left">{{ member.title }}</p>
+            </div>
+
+            <!-- Name (Left-Aligned) -->
+            {% if member.link %}
+                <a href="{{ member.link }}" target="_blank" class="hover:text-sky-800 text-base font-semibold mt-1 block text-left">
+                    <h2 class="font-ibmserif">{{ member.name }}</h2>
+                </a>
+            {% else %}
+                <h2 class="font-ibmserif text-base font-semibold mt-1 text-left">{{ member.name }}</h2>
+            {% endif %}
+
+            <!-- Affiliation (Left-Aligned) -->
+            <small class="text-gray-600 font-ibmsans text-left">{{ member.affiliation }}</small>
+
+            <!-- Bio (Left-Aligned) -->
+            <p class="text-gray-700 text-xs mt-1 text-left">{{ member.content }}</p>
+
+        </div>
+    {% endfor %}
 </div>
