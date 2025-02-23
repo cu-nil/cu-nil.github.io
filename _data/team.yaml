@@ -1,0 +1,39 @@
+  - name: Dennis Yi Tenen
+    affiliation: Department of English and Comparative Literature
+    university: Columbia University
+    title: Faculty Lead Researcher
+    link: https://dennistenen.com/
+    image: denten.jpg
+    year:
+      - 2024
+      - 2025
+
+  - name: Julia Meghan Walton
+    affiliation: Department of English and Comparative Literature
+    university: Columbia University
+    title: Graduate Research Fellow
+    link: https://english.columbia.edu/content/julia-meghan-walton
+    image: favatar.png
+    year:
+      - 2024
+      - 2025
+
+  - name: Moacir P. de Sá Pereira
+    affiliation: Columbia University Libraries
+    university: Columbia University
+    title: Library Lead Researcher
+    link: https://moacir.com
+    image: moacir.png
+    year:
+      - 2024
+      - 2025
+
+  - name: Ramathi Bandaranayake
+    affiliation: Department of English and Comparative Literature
+    university: Columbia University
+    title: Graduate Research Fellow
+    link: null
+    image: ramathi.jpg
+    year:
+      - 2024
+      - 2025
