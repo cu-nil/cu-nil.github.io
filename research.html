@@ -3,8 +3,9 @@ layout: default
 ---
 
 
+{% include section-break.html section="Research" subsection="Projects that highlight our work."%}
+
 <div>
-    <h1>Research</h1>
 
     {% assign projects = site.projects | sort: "date" | reverse%}
     {% include components/projects/collection.html

@@ -3,19 +3,12 @@ title: Team
 layout: default
 ---
 
-<div class="my-4 sm:my-0">
-    <div class="flex text-xl justify-end">
-        <span class="bg-sky-600 px-2 text-white font-ibmsans pr-8 text-base lg:text-xl">Team</span>
-    </div>
 
-    <div class="flex text-right justify-end text-base text-gray-500 font-ibmsans text-sm">
-        Faculty, Students, Librarians.
-    </div>
-</div>
+{% include section-break.html section='Team' subsection='Faculty, students, librarians.' %}
 
-<div class="mt-4 mb-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mx-auto max-w-5xl px-4">
+<div class="mt-4 mx-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-5xl">
     {% for member in site.team %}
-        <div class="bg-white rounded-md p-3 flex flex-col items-start gap-3"> <!-- Aligns everything left -->
+        <div class="bg-white rounded-md p-3 flex flex-col items-start gap-3">
 
             <!-- Profile Image (Left-Aligned for Balance) -->
             <img class="w-20 h-20 rounded-xl object-cover self-start" 
