@@ -13,6 +13,7 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+  - documents/
 
 collections_dir: collections  # Store all collections inside a single "collections" folder
 
