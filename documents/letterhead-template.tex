@@ -1,7 +1,7 @@
 %!TEX program = xelatex 
 
 \documentclass[$size$]{letter}
-\usepackage[letterpaper,margin=1.25in]{geometry}
+\usepackage[letterpaper,margin=1.20in]{geometry}
 \usepackage{graphicx}
 \usepackage{fixltx2e}
 \usepackage{longtable}
@@ -31,6 +31,8 @@
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \newcommand\shyp{\-}
+
+\setcounter{secnumdepth}{0} % Suppress section numbering
 
 \newcommand{\header}[0]{
     {\hypersetup{hidelinks}
@@ -72,7 +74,7 @@ $body$
 $if(sig.include)$
     \bigskip
     \begin{minipage}[t]{6.5in}
-    With sincere gratitude for your consideration,\\
+    With sincere gratitude for your support,\\
     $if(sig.sign)$
         \vspace{-0.2in}\includegraphics[height =
 0.75in]{support-files/siggy.jpg}
