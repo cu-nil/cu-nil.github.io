@@ -23,8 +23,8 @@ emphasis on three related areas:
 
 1. Collective cognition: thinking, writing, and creating in groups.
 
-2. Influence (text reuse, plagiarism in the age of AI, schematic and otherwise algorithmic
-modes of cultural/epistemic production).
+2. Influence (text reuse, plagiarism, schematic and otherwise algorithmic and generative modes
+of cultural/epistemic production).
 
 3. Group thought and communal storytelling including expert discourse, conspiracy theory,
 disinformation, and propaganda.
@@ -33,14 +33,13 @@ The "laboratory" aspect of the group's work indicates (a) a concerted effort to 
 single authorship model in the humanities, and (b) a preference for mixed methods, combining
 qualitative and quantitative modalities.
 
-To achieve these goals, the lab actively seeks to promote targeted collaboration between
-faculty, also involving graduate and undergraduate researchers, toward specific publishable
-outcomes.
+These goals are achieved by the lab actively facilitating collaboration between faculty, graduate,
+and undergraduate researchers, focusing on specific publishable outcomes.
 
-For the purposes of this request, consider that a significant barrier to collaboration lies in
-the relative lack of formal training in quantitative or qualitative methods in the humanities.
-Consequently, I believe an effective use of funding to lie in the training opportunities for
-our graduate students, above those available at Columbia.
+For the purposes of this request, consider also that a significant barrier to collaboration
+lies in the relative lack of formal methodological training in the humanities. Consequently,
+I believe an effective use of funding to lie in the training opportunities for our graduate
+students.
 
 **2025 Summer Program at SKKU, Seoul**
 
@@ -62,10 +61,11 @@ https://summer.skku.edu/summer/program
 
 **Request for Funding**
 
-In preparation for the Summer of 2025, I have secured a tuition waiver at SKKU. However, the cost of travel
-and lodging for our students remains prohibitive. For this reason, I would like to offer 2-3
-travel bursaries, in the amount of $3,000 available to our graduate students. Julia Walton and
-several others have expressed initial interest. Following the success (and limitations) of
-the summer program in 2025, I plan to explore the possibility of holding the summer institute
-domestically, at Columbia or at one of the partner institutions (Harvard, Toronto), on a more
-permanent basis and with a better defined funding and revenue structure.
+In preparation for the Summer of 2025, I have secured a tuition waiver at SKKU. However, the
+cost of travel and lodging for our students remains prohibitive. For this reason, I would like
+to **request 2-3 travel bursaries, in the amount of $3,000 ($6-9k total) to be made available
+to our graduate students this summer**. Julia Walton and several others have expressed initial interest.
+Following the success (and limitations) of the summer program in 2025, I plan to explore the
+possibility of holding the summer institute domestically, at Columbia or at one of the partner
+institutions (Harvard, Toronto), on a more permanent basis and with a better defined funding
+and revenue structure.
