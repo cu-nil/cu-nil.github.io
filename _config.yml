@@ -5,6 +5,12 @@ title: 'CU Narrative Intelligence Lab'
 plugins:
   - jekyll-postcss-v2
 
+gems:
+  - jekyll-inline-svg
+
+svg:
+  optimize: true
+
 postcss:
   cache: false
 
