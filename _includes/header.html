@@ -1,41 +1,39 @@
 <div id="top" class="flex flex-wrap items-baseline mb-2 text-base md:text-xl text-gray-800 font-ibmserif">
-    <div class="whitespace-nowrap mr-2 text-xs sm:text-xl"> Columbia University </div>
-    <div class="">
-        <span class="font-bold sm:text-xl">Narrative Intelligence Lab</span>
+    <h1 class="sr-only">Columbia University Narrative Intelligence Lab</h1>
+    <div class="whitespace-nowrap mr-2 text-xs sm:text-xl not-sr-only"> 
+    Columbia University </div>
+    <span class="font-bold sm:text-xl not-sr-only">Narrative Intelligence Lab</span>
         <sup class="whitespace-nowrap text-xs font-sans">
         <a href="#footnote" class="hover:text-sky-700">1</a>,
         <a href="#footnote" class="hover:text-sky-700">2</a>,
         <a href="#footnote" class="hover:text-sky-700">3</a>,
         <a href="#footnote" class="hover:text-sky-700">4</a>
         </sup>
-    </div>
 </div>
 
-<div class="flex mt-0 items-start font-bold font-sans gap-x-2">
+<div class="h-18 lg:h-24 flex mt-0 items-start font-bold font-sans 
+  gap-x-2">
   <h1 class="sr-only">CUØ <small>/'kjuːnɪl/</small></h1>
-
-  <div class="w-44">
-    <a href="/">
-      {% svg assets/images/svg/cu-nil-logo.svg %}
+    <!-- The logo is 2:1 -->
+    <a href="/" class="block h-full w-36 lg:w-48">
+      <img src="/assets/images/svg/cu-nil-logo.svg" 
+        class="object-cover" alt="CUØ /'kjuːnɪl/"
+      />
     </a>
-  </div>
 
-    <div class="grid grid-cols-2
-                text-gray-800 font-medium text-base lg:text-xl font-ibmsans">
-
-            <a href="/research" class="hover:text-sky-700">
-                Research</a>
-
-            <a href="/team" class="hover:text-sky-700">
-                Team</a>
-
-            <a href="#case-studies" class="hover:text-sky-700">
-                Impact</a>
-
-            <a href="/series" class="hover:text-sky-700">Book Series</a>
-
-            <a href="https://xpmethod.columbia.edu/" class="hover:text-sky-700 row-span-2">Archive</a>
-
+    <div class="flex flex-col flex-wrap h-full gap-x-2
+      text-base lg:text-xl
+      text-gray-800 font-medium font-ibmsans">
+      {% for menuItem in site.data.navbar %}
+        {% if page.url contains menuItem.path %}
+          {% assign classes="text-sky-700" %}
+        {% else %}
+          {% assign classes="hover:text-sky-700" %}
+        {% endif %}
+        <a href={{menuItem.path}} class={{classes}}>
+          {{menuItem.name}}
+        </a>
+      {% endfor %}
     </div>
 
 </div>

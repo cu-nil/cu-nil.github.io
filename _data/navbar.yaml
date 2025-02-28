@@ -1,0 +1,10 @@
+- name: Research
+  path: /research
+- name: Team
+  path: /team
+- name: Impact
+  path: /case-studies
+- name: Book Series
+  path: /series
+- name: Archive
+  path: https://xpmethod.columbia.edu
