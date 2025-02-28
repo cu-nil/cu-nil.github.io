@@ -1,4 +1,4 @@
 # For use with asdf
-ruby 3.3.5
+ruby 3.3.6
 nodejs 22.13.1
 yarn 1.22.22
