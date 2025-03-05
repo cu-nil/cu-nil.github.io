@@ -20,7 +20,7 @@
     </div>
 
     <!-- Image Section (Appears between title and text in mobile, right side in desktop) -->
-    <div class="w-full order-2 md:col-span-1 md:order-3">
+    <div class="w-full order-2 md:col-span-1 md:order-3 self-start">
 
     <img 
       src="/assets/images/projects/{{ item.image}}" 
@@ -37,7 +37,7 @@
             {{ item.content | markdownify | split: '</p>' | first | remove: '<p>' | rstrip }}
         {% endcapture %}
 
-        <div class="prose p-5 pt-3 text-base leading-6 mb-3 font-ibmserif bg-gray-100 prose">
+        <div class="prose p-5 pt-3 text-base leading-6 mb-3 font-ibmserif prose">
             {{ first_paragraph }}
             <a href="{{ item.url }}" class="text-sky-600 hover:underline text-xs
                 font-ibmsans">
