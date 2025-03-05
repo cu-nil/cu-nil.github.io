@@ -17,11 +17,6 @@ updates:
   text: "\"Character and Agency in Arthur Hailey’s *Airport*.\" Talk by invitation at the Harvard NHC Novel Theory seminar on April 2, 2018."
 ---
 
-In this paper I discuss the question of institutional agency more narrowly, on the basis of a
-literary genre principally concerned with trans-human, organizational actors. The readings will
-occasion a model of agency more broadly, which besides its exploratory, theoretical potential
-will find its application in a method for extracting literary characters.
-
 State-of-the-art methods for detecting literary characters often rely on features such
 as named entities (i.e. Heathcliff), gender attributes, and evidence of direct speech or
 sentience.[^1] The house in *Bleak House* (1952--1853) by Charles Dickens, the wheat and the
@@ -29,6 +24,12 @@ Railroad Commission in *The Octopus* (1901) by Frank Norris, and the airport in 
 *Airport* (1968) are not characters by these measures. Yet we intuit them to act vitally and to
 exert an almost hypnotic influence on the action of the novel: "a strange beast that pertains
 to no one in particular and who is nobody's responsibility."[^2]
+
+In this paper, I discuss the question of institutional agency more narrowly, on the basis of a
+literary genre principally concerned with trans-human, organizational actors. The readings will
+occasion a model of agency more broadly, which besides its exploratory, theoretical potential
+will find its application in a method for extracting literary characters.
+
 
 Major spoiler alert: "This is Bleak House. This day I give this house its little mistress,"
 John says to Esther as the narrative gaze soars to observe the scene in its totality,
