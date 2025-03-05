@@ -21,20 +21,20 @@ exclude:
   - yarn.lock
   - documents/
 
-collections_dir: collections  # Store all collections inside a single "collections" folder
+collections_dir: collections  # Store all collections inside "collections" folder
 
 collections:
   team:
   projects:
-    output: true  # Allow individual pages
-    permalink: /projects/:path/
+    output: true   # Generate individual pages for each project
+    permalink: /projects/:path/  # Force correct URL structure
+    name: "projects"  # Ensure Jekyll recognizes _projects as projects
   category:
     output: true
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: category
+  - scope:
+      path: "collections/_projects"  # Applies to all files in the projects collection
+      type: "projects"
     values:
-      layout: "category"
+      layout: project
