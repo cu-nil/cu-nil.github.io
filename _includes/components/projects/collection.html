@@ -1,6 +1,9 @@
 <div class="justify-center items-center">
+
+{% assign projects = include.projects | default: site.projects %}
+{% assign project_count = projects | size %}
   <ul>
-    {% for project in include.projects %}
+    {% for project in projects %}
         <li>
           {% if include.show-category-name %}
             {% assign category = site.category | where: "tag", project.tag | first %}
@@ -17,4 +20,7 @@
         </li>
     {% endfor %}
   </ul>
+
 </div>
+
+

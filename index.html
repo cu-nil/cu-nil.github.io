@@ -3,34 +3,34 @@ layout: default
 title: "Home"
 ---
 
-<div class="mx-4 lg:mx-8">
+<div class="font-ibmsans my-4 p-4 space-y-2">
 
-    <div class="font-ibmsans my-4 p-4 space-y-2">
+    <p class="-skew-1">
+        <span class="font-ibmserif text-base">
 
-        <p class="-skew-1">
-            <span class="font-ibmserif text-base">
+            Some stories are written. Others emerge synthetically, in collectives.
+            CUØ draws on expertise in literary theory, sociology of knowledge,
+            linguistics, and computation to study how stories shape our personal and shared
+            beliefs.<a href="#footnote" class="hover:text-sky-700 align-super text-xs
+            font-ibmsans">5</a>
 
-                Some stories are written. Others emerge synthetically, in collectives.
-                CUØ draws on expertise in literary theory, sociology of knowledge,
-                linguistics, and computation to study how stories shape our personal and shared
-                beliefs.<a href="#footnote" class="hover:text-sky-700 align-super text-xs
-                font-ibmsans">5</a>
+        </span>
 
-            </span>
+        <!-- <span id="generated-text" class="font-ibmsans"></span>-->
+    </p>
 
-            <!-- <span id="generated-text" class="font-ibmsans"></span>-->
-        </p>
+</div>
 
-    </div>
+    {% assign all_projects = site.projects | size %}
+    {% assign highlighted_projects = site.projects | where: "highlight", true | size %}
+    {% assign project_count_text = "Showing " | append: highlighted_projects | append: " out of " | append: all_projects | append: " projects." %}
 
+    {% include section-break.html section="Featured research" subsection=project_count_text %}
 
-    {% include section-break.html section="Research" subsection="Projects that highlight our work."%}
+<div>
 
-    <div>
-      {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
-      {% include components/projects/collection.html
-          show-category-name=true
-          projects=projects
-      %}
-    </div>
+    {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
+    {% include components/projects/collection.html
+       show-category-name=true
+       projects=projects %}
 </div>

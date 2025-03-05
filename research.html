@@ -2,13 +2,16 @@
 layout: default
 ---
 
+<div class="mx-4 lg:mx-8">
+{% assign all_projects = site.projects | size %}
+{% assign project_count_text = "Showing all " | append: all_projects | append: " projects." %}
+{% include section-break.html section="Research" subsection=project_count_text %}
 
-{% include section-break.html section="Research" subsection="Projects that highlight our work."%}
-
-    <div>
-      {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
-      {% include components/projects/collection.html
-          show-category-name=true
-          projects=projects
-      %}
-    </div>
+<div>
+  {% assign projects = site.projects | sort: "date" | reverse %}
+  {% include components/projects/collection.html
+      show-category-name=true
+      projects=projects
+  %}
+</div>
+</div>
