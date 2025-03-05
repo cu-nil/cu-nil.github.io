@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif');
 @import "tailwindcss";
 
+@plugin "@tailwindcss/typography";
 
 @theme {
   --font-ibmserif: "IBM Plex Serif", serif;

@@ -16,4 +16,4 @@ extent and how? To answer that question, we propose to treat the memo as a natur
 in "keyword injection." We then analyze the congressional record to capture the dynamics of
 term diffusion, revealing a pattern of influence over time.
 
-<sup>1</sup>: *The New York Times*, 12/14/94.
+<sup>1</sup> *The New York Times*, 12/14/94.

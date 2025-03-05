@@ -4,7 +4,7 @@ title: Archeology of Fictional Space
 date: 2018-05-05
 tag: modeling-and-visualization
 image: lit-space.png
-image-alt: "Four tall and skinny scatter plots demonstrating density and clutter."
+image_alt: "Four tall and skinny scatter plots demonstrating density and clutter."
 people:
 - Dennis Yi Tenen
 type: research paper

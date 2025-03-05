@@ -1,44 +1,48 @@
+{% assign item = project | default: page %}
+
 <div class="projects-card mx-4 lg:mx-8 grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 lg:mb-16 items-center">
     <!-- Tag & Title (Always First) -->
     <div class="md:col-span-3">
-      {% if include.category-name %}
+      {% if item.tag %}
         <div class="flex items-center">
           <svg width="64" height="2" viewBox="0 0 64 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M64 1H0" stroke="#6B7280" />
           </svg>
             <p class="text-base leading-none text-gray-500 ml-2">
-                {{ include.category-name }}
+                {{ item.tag }}
             </p>
         </div>
       {% endif %}
 
         <div class="text-gray-900 font-bold text-xl font-ibmsans">
-            {{ include.title }}
+            {{ item.title }}
         </div>
     </div>
 
     <!-- Image Section (Appears between title and text in mobile, right side in desktop) -->
     <div class="w-full order-2 md:col-span-1 md:order-3">
+
     <img 
-      src="/assets/images/projects/{{ include.image}}" 
+      src="/assets/images/projects/{{ item.image}}" 
       class="w-full h-10 sm:h-15 md:h-auto object-cover rounded-lg" 
-      alt="{{include.image-alt}}"
+      alt="{{ item.image_alt }}"
     />
     </div>
 
     <!-- Text Section (Takes 2/3 space on desktop, below image in mobile) -->
 
     <div class="md:col-span-2 md:pr-6 order-3 md:order-2">
+
         {% capture first_paragraph %}
-            {{ project.content | markdownify | split: '</p>' | first | remove: '<p>' | rstrip }}
+            {{ item.content | markdownify | split: '</p>' | first | remove: '<p>' | rstrip }}
         {% endcapture %}
 
-        <p class="p-5 pt-3 text-base leading-6 mb-3 font-ibmserif bg-gray-100">
+        <div class="prose p-5 pt-3 text-base leading-6 mb-3 font-ibmserif bg-gray-100 prose">
             {{ first_paragraph }}
-            <a href="{{ project.url }}" class="text-sky-600 hover:underline text-xs
+            <a href="{{ item.url }}" class="text-sky-600 hover:underline text-xs
                 font-ibmsans">
                 [read more]
             </a>
-        </p>
+        </div>
     </div>
 </div>
