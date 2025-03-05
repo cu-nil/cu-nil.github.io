@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<div class="mx-4 lg:mx-8">
 {% assign all_projects = site.projects | size %}
 {% assign project_count_text = "Showing all " | append: all_projects | append: " projects." %}
 {% include section-break.html section="Research" subsection=project_count_text %}
@@ -13,5 +12,4 @@ layout: default
       show-category-name=true
       projects=projects
   %}
-</div>
 </div>
