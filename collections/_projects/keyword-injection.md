@@ -15,4 +15,3 @@ news media” (New York Times, 12/14/94). Historians agree these terms had an im
 extent and how? To answer that question, we propose to treat the memo as a natural experiment
 in "keyword injection." We then analyze the congressional record to capture the dynamics of
 term diffusion, revealing a pattern of influence over time.
-

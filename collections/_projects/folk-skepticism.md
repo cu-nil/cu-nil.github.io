@@ -5,11 +5,6 @@ date: 2021-11-10
 tag: dis-information
 image: vaccine.png
 image-alt: "A snippet of text, annotated."
-teaser: >
-    During the COVID-19 Public Health Emergency, our team worked with partners at the Center
-    for Disease Control to collect and study millions of vaccine-hesitant messages online
-    with the goal of tailoring a nation-wide social media campaign to target at at-risk
-    demographics, measurably improving public health outcomes.
 people:
 - Elena Fratto
 - Rishi Goyal
@@ -70,7 +65,7 @@ updates:
 - date: 2021-10-21
   type: press
   text: "Manabu Fujiwara, et. al. reporting for The Asahi Shimbun on [Vaccine Mandates in the United States](https://web.archive.org/web/20211101143045/https://www.asahi.com/articles/ASPBN5CHLPBJUHBI001.htmlx[)."
-  
+
 - date: 2021-11-10
   type: press
   text: "[Increasing Public Confidence in COVID-19 Vaccines using NLP](https://web.archive.org/web/20211119150621/https://pnw.ai/article/increasing-public-confidence-in-covid-19-vaccines-using-nlp/72241938) by Alexander Gary writing for PNW.AI"

@@ -6,8 +6,9 @@
           <svg width="64" height="2" viewBox="0 0 64 2" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M64 1H0" stroke="#6B7280" />
           </svg>
-            <p class="text-base leading-none text-gray-500 ml-2">{{ 
-        include.category-name }}</p>
+            <p class="text-base leading-none text-gray-500 ml-2">
+                {{ include.category-name }}
+            </p>
         </div>
       {% endif %}
 
@@ -26,11 +27,18 @@
     </div>
 
     <!-- Text Section (Takes 2/3 space on desktop, below image in mobile) -->
-    <div class="md:col-span-2 md:pr-6 order-3 md:order-2">
-        <p class="p-6 text-base leading-6 mt-2 font-ibmserif bg-gray-100">
-            {{ include.teaser }}
 
-      <a href={% link {{include.path}} %}>More…</a>
+    <div class="md:col-span-2 md:pr-6 order-3 md:order-2">
+        {% capture first_paragraph %}
+            {{ project.content | markdownify | split: '</p>' | first | remove: '<p>' | rstrip }}
+        {% endcapture %}
+
+        <p class="p-5 pt-3 text-base leading-6 mb-3 font-ibmserif bg-gray-100">
+            {{ first_paragraph }}
+            <a href="{{ project.path }}" class="text-sky-600 hover:underline text-xs
+                font-ibmsans">
+                [read more]
+            </a>
         </p>
     </div>
 </div>
