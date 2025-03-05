@@ -4,8 +4,6 @@ layout: default
 
 {% assign item = project | default: page %}
 
-
-
 {% assign subsection_text = "Filed under: " | append: item.tag %}
 {% include section-break.html section="Project description" subsection=subsection_text %}
 
@@ -13,7 +11,7 @@ layout: default
     <!-- Tag & Title (Always First) -->
     <div class="md:col-span-3">
 
-        <div class="text-gray-900 font-bold text-xl font-ibmsans">
+        <div class="text-gray-900 font-bold text-xl font-ibmsans -skew-1">
             {{ item.title }}
         </div>
     </div>

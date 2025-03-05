@@ -6,6 +6,12 @@ tag: influence
 github: https://github.com/cu-nil/keyword-injection
 image: gopac.png
 image-alt: 'The GOPAC logo atop a newsletter title, “Language: a Key Mechanism for Control”'
+team:
+- Rishi Goyal
+- Arden Hegele
+- Emily Madison
+- Dennis Yi Tenen
+
 ---
 
 In 1995, Newt Gingrich's team circulated a memo, containing a list of words to be used for
