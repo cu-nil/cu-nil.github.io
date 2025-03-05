@@ -21,14 +21,14 @@ layout: default
 
     <img 
       src="/assets/images/projects/{{ item.image}}" 
-      class="w-full h-10 sm:h-15 md:h-auto object-cover my-6 shadow-sm md:shadow-none" 
+      class="w-full h-10 sm:h-15 md:h-auto object-cover my-6"
       alt="{{ item.image_alt }}"
     />
     </div>
 
     <!-- Text Section (Takes 2/3 space on desktop, below image in mobile) -->
 
-    <div class="prose-sm md:prose-base md:col-span-2 md:pr-6 order-3 md:order-2">
+    <div class="prose-sm md:prose-base md:col-span-2 md:pr-6 order-3 md:order-2 font-ibmserif">
 
             {{ item.content | markdownify  }}
     </div>
