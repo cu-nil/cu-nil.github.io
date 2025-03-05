@@ -26,7 +26,7 @@ title: "Home"
 
     {% include section-break.html section="Research" subsection="Projects that highlight our work."%}
 
-    <div id="content-for-generated-text">
+    <div>
       {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
       {% include components/projects/collection.html
           show-category-name=true

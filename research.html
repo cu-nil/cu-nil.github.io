@@ -5,10 +5,10 @@ layout: default
 
 {% include section-break.html section="Research" subsection="Projects that highlight our work."%}
 
-<div>
-
-    {% assign projects = site.projects | sort: "date" | reverse%}
-    {% include components/projects/collection.html
-      projects=projects
-    %}
-</div>
+    <div>
+      {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
+      {% include components/projects/collection.html
+          show-category-name=true
+          projects=projects
+      %}
+    </div>
