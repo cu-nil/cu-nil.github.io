@@ -31,6 +31,12 @@ collections:
     name: "projects"  # Ensure Jekyll recognizes _projects as projects
   category:
     output: true
+  events:
+    output: true
+    permalink: /events/:path/
+    name: "events"
+  category:
+    output: true
 
 defaults:
   - scope:

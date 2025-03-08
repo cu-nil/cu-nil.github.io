@@ -2,6 +2,8 @@
   path: /research
 - name: Team
   path: /team
+- name: Events
+  path: /events
 - name: Impact
   path: /case-studies
 - name: Book Series
