@@ -4,7 +4,8 @@ title: Keyword Injection
 date: 2025-01-01
 tag: event
 image: letsplay.png
-image-alt: 'The GOPAC logo atop a newsletter title, “Language: a Key Mechanism for Control”'
+image-alt: "Let's Play Poster"
+gallery:
 organizer:
 - Julia Walton
 
