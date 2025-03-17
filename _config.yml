@@ -24,7 +24,6 @@ exclude:
 collections_dir: collections  # Store all collections inside "collections" folder
 
 collections:
-  team:
   projects:
     output: true   # Generate individual pages for each project
     permalink: /projects/:path/  # Force correct URL structure
@@ -35,8 +34,6 @@ collections:
     output: true
     permalink: /events/:path/
     name: "events"
-  category:
-    output: true
 
 defaults:
   - scope:
