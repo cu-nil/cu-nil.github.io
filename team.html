@@ -21,20 +21,25 @@ layout: default
                 <p class="text-sm leading-none text-gray-500 ml-2 font-ibmsans text-left">{{ member.title }}</p>
             </div>
 
-            <!-- Name (Left-Aligned) -->
-            {% if member.link %}
-                <a href="{{ member.link }}" target="_blank" class="hover:text-sky-800 text-base font-semibold mt-1 block text-left">
-                    <h2 class="font-ibmserif">{{ member.name }}</h2>
-                </a>
-            {% else %}
-                <h2 class="font-ibmserif text-base font-semibold mt-1 text-left">{{ member.name }}</h2>
-            {% endif %}
+            <span class="p0 m0">
+                <!-- Name (Left-Aligned) -->
+                {% if member.link %}
+                    <a href="{{ member.link }}" target="_blank" class="hover:text-sky-800 text-base font-semibold mt-1 block text-left">
+                        <h2 class="font-ibmserif">{{ member.name }}</h2>
+                    </a>
+                {% else %}
+                    <h2 class="font-ibmserif text-base font-semibold mt-1 text-left">{{ member.name }}</h2>
+                {% endif %}
 
-            <!-- Affiliation (Left-Aligned) -->
-            <small class="text-gray-600 font-ibmsans text-left">{{ member.affiliation }}</small>
+                <!-- Affiliation (Left-Aligned) -->
 
-            <!-- Bio (Left-Aligned) -->
-            <p class="text-gray-700 text-xs mt-1 text-left">{{ member.content }}</p>
+                <small class="text-gray-600 font-ibmsans text-left block leading-tight">
+                    {{ member.affiliation }}
+                </small>
+                <small class="font-ibmserif block leading-tight">
+                    {{ member.university }}
+                </small>
+            </span>
 
         </div>
     {% endfor %}

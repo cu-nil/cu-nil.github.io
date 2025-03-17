@@ -1,7 +1,7 @@
   - name: Dennis Yi Tenen
     affiliation: Department of English and Comparative Literature
     university: Columbia University
-    title: Faculty Lead
+    title: Founder, Faculty Associate
     link: https://dennistenen.com/
     image: denten.jpg
     year:
@@ -11,17 +11,35 @@
   - name: Jessica Merrill
     affiliation: Department of Slavic Languages
     university: Columbia University
-    title: Faculty Lead
+    title: Faculty Associate
     link: https://slavic.columbia.edu/content/jessica-e-merrill
     image: merrill.jpg
     year:
       - 2024
       - 2025
 
+  - name: Moira Weigel
+    affiliation: Department of Comparative Literature
+    university: Harvard University
+    title: Faculty Associate
+    link: https://complit.fas.harvard.edu/people/moira-weigel/
+    image: weigel.jpg
+    year:
+      - 2025
+
+  - name: Kriste Krstovski
+    affiliation: Data Science Institute
+    university: Columbia University
+    title: Senior Research Associate
+    link: https://moacir.com
+    image: kriste.jpg
+    year:
+      - 2025
+
   - name: Moacir P. de Sá Pereira
     affiliation: Columbia University Libraries
     university: Columbia University
-    title: Library Lead
+    title: Senior Research Associate
     link: https://moacir.com
     image: moacir.png
     year:
