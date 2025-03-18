@@ -6,10 +6,15 @@ tag: influence
 github: https://github.com/cu-nil/keyword-injection
 image: gopac.png
 image-alt: 'The GOPAC logo atop a newsletter title, “Language: a Key Mechanism for Control”'
-team:
-- Rishi Goyal
-- Arden Hegele
-- Emily Madison
+people:
+- Ramathi Bandaranayake
+- Isha Karim
+- Jessica Merill
+- Moacir P. de Sá Pereira
+- Valentina Rodriguez
+- Barbara Roskosa
+- Linda Dongfang Qu
+- Julia Meghan Walton
 - Dennis Yi Tenen
 
 ---
