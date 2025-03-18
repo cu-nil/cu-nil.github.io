@@ -5,7 +5,7 @@ date: 2025-01-01
 tag: event
 image: letsplay.png
 image-alt: "Let's Play Poster"
-organizer:
+people:
   - Julia Walton
 
 ---
