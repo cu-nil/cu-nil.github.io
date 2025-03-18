@@ -19,11 +19,9 @@ layout: default
     <!-- Image Section (Appears between title and text in mobile, right side in desktop) -->
     <div class="w-full order-2 md:col-span-1 md:order-3 self-start">
 
-    <img 
-      src="/assets/images/projects/{{ item.image}}" 
-      class="w-full h-10 sm:h-15 md:h-auto object-cover my-6"
-      alt="{{ item.image_alt }}"
-    />
+        <img class="w-full h-10 sm:h-15 md:h-auto object-cover rounded-lg" src="/assets/images/{{
+        item.image_folder | default: 'projects' }}/{{ item.image }}" alt="{{ item.image_alt }}">
+
     </div>
 
     <!-- Text Section (Takes 2/3 space on desktop, below image in mobile) -->

@@ -28,12 +28,14 @@ collections:
     output: true   # Generate individual pages for each project
     permalink: /projects/:path/  # Force correct URL structure
     name: "projects"  # Ensure Jekyll recognizes _projects as projects
+    image_folder: "projects"  # Default image folder for projects
   category:
     output: true
   events:
     output: true
     permalink: /events/:path/
     name: "events"
+    image_folder: "events"  # Default image folder for projects
 
 defaults:
   - scope:
@@ -41,3 +43,11 @@ defaults:
       type: "projects"
     values:
       layout: project
+      image_folder: "projects"
+
+  - scope:
+      path: "collections/_events"  # Applies to all files in the projects collection
+      type: "events"
+    values:
+      layout: project
+      image_folder: "events"
