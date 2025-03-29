@@ -11,3 +11,9 @@
   --font-ibmserif: "IBM Plex Serif", serif;
   --font-ibmsans: "IBM Plex Sans", sans-serif;
 }
+
+@layer base {
+  a:hover {
+    @apply text-sky-700;
+  }
+}

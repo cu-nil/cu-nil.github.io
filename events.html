@@ -9,7 +9,7 @@ title: "Events"
 
 <div>
   {% assign events = site.events | sort: "date" | reverse %}
-  {% include components/projects/collection.html
+  {% include collection.html
       show-category-name=true
       projects=events
   %}

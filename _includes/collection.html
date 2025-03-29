@@ -9,7 +9,7 @@
             {% assign category = site.category | where: "tag", project.tag | first %}
             {% assign category-name = category.display-name %}
           {% endif %}
-          {% include components/projects/card.html
+          {% include card.html
               category-name = category-name
               title = project.title
               image = project.image

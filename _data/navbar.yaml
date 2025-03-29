@@ -4,9 +4,9 @@
   path: /team
 - name: Events
   path: /events
-- name: Impact
-  path: /case-studies
 - name: Book Series
   path: /series
+- name: Resources
+  path: /resources
 - name: Archive
   path: https://xpmethod.columbia.edu

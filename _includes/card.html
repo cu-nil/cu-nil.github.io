@@ -2,22 +2,8 @@
 
 <div class="projects-card mx-4 lg:mx-8 grid grid-cols-1 md:grid-cols-3 gap-4 mb-8 lg:mb-16 items-center">
     <!-- Tag & Title (Always First) -->
-    <div class="md:col-span-3">
-      {% if item.tag %}
-        <div class="flex items-center">
-          <svg width="64" height="2" viewBox="0 0 64 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M64 1H0" stroke="#6B7280" />
-          </svg>
-            <p class="text-base leading-none text-gray-500 ml-2">
-                {{ item.tag }}
-            </p>
-        </div>
-      {% endif %}
 
-        <div class="text-gray-900 font-bold text-xl font-ibmsans">
-            {{ item.title }}
-        </div>
-    </div>
+    {% include card-title.html tag=item.tag title=item.title %}
 
     <!-- Image Section (Appears between title and text in mobile, right side in desktop) -->
     <div class="w-full order-2 md:col-span-1 md:order-3 self-start">

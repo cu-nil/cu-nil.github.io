@@ -4,10 +4,10 @@
     Columbia University </div>
     <span class="font-bold sm:text-xl not-sr-only">Narrative Intelligence Lab</span>
         <sup class="whitespace-nowrap text-xs font-sans">
-        <a href="#footnote" class="hover:text-sky-700">1</a>,
-        <a href="#footnote" class="hover:text-sky-700">2</a>,
-        <a href="#footnote" class="hover:text-sky-700">3</a>,
-        <a href="#footnote" class="hover:text-sky-700">4</a>
+        <a href="#footnote" class="">1</a>,
+        <a href="#footnote" class="">2</a>,
+        <a href="#footnote" class="">3</a>,
+        <a href="#footnote" class="">4</a>
         </sup>
 </div>
 
@@ -27,7 +27,7 @@
         {% if page.url contains menuItem.path %}
           {% assign classes="text-sky-700" %}
         {% else %}
-          {% assign classes="hover:text-sky-700" %}
+          {% assign classes="" %}
         {% endif %}
         <a href={{menuItem.path}} class={{classes}}>
           {{menuItem.name}}

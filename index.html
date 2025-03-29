@@ -11,7 +11,7 @@ title: "Home"
             Some stories are written. Others emerge synthetically, in collectives.
             CUØ draws on expertise in literary theory, sociology of knowledge,
             linguistics, and computation to study how stories shape our personal and shared
-            beliefs.<a href="#footnote" class="hover:text-sky-700 align-super text-xs
+            beliefs.<a href="#footnote" class="align-super text-xs
             font-ibmsans">5</a>
 
         </span>
@@ -30,7 +30,7 @@ title: "Home"
 <div>
 
     {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
-    {% include components/projects/collection.html
+    {% include collection.html
        show-category-name=true
        projects=projects %}
 </div>
