@@ -27,6 +27,15 @@
     year:
       - 2025
 
+  - name: Elena Fratto
+    affiliation: Medical Humanities
+    university: Princeton University
+    title: Faculty Associate
+    link: https://slavic.princeton.edu/people/elena-fratto
+    image: fratto.jpg
+    year:
+      - 2025
+
   - name: Kriste Krstovski
     affiliation: Data Science Institute
     university: Columbia University
