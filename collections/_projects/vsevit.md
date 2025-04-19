@@ -10,7 +10,7 @@ published: true
 updates:
 ---
 
-The *Vsesvit* Digital Archive is a comprehensive digital bibliography preserving the legacy
+The [*Vsesvit* Digital Archive](https://vsesvit.vercel.app/) is a comprehensive digital bibliography preserving the legacy
 of Ukraine's foremost journal of translated world literature. Since its founding in 1925,
 *Vsesvit* has served as a vital cultural bridge, introducing Ukrainian readers to literary
 voices from around the globe. This project showcases nearly a century of literary exchange
