@@ -1,11 +1,10 @@
 ---
 title: Vsesvit Digital Archive
-tag: vsesvit
+tag: corpus
 image: vsesvit.png
 people:
 - Georgii Korotkov
 - Valeriia Korotkova
-type: archive
 published: true
 updates:
 ---
