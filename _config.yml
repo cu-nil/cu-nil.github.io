@@ -21,6 +21,10 @@ exclude:
   - yarn.lock
   - documents/
 
+# Required if you want to move pages into a separate directory
+include: ['_pages']
+relative_permalinks: false
+
 collections_dir: collections  # Store all collections inside "collections" folder
 
 collections:
