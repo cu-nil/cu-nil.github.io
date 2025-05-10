@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Research"
+permalink: /research/
+---
+
+{% assign all_projects = site.projects | size %}
+{% assign project_count_text = "Showing all " | append: all_projects | append: " projects." %}
+{% include section-break.html section="Research" subsection=project_count_text %}
+
+<div>
+  {% assign projects = site.projects | sort: "date" | reverse %}
+  {% include collection.html
+      show-category-name=true
+      projects=projects
+  %}
+</div>

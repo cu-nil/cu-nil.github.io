@@ -1,0 +1,17 @@
+---
+layout: default
+title: "Events"
+permalink: /events/
+---
+
+{% assign all_events = site.events | size %}
+{% assign events_count_text = "Showing all " | append: all_events | append: " events." %}
+{% include section-break.html section="Events" subsection=events_count_text %}
+
+<div>
+  {% assign events = site.events | sort: "date" | reverse %}
+  {% include collection.html
+      show-category-name=true
+      projects=events
+  %}
+</div>
