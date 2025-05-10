@@ -1,6 +1,8 @@
-`Memo 1: On Study Design in Computational Humanities`
-`05/20/2025`
-`From: Denten`
+---
+title: "Memo 1: On Study Design in Computational Humanities"
+author: Dennis Yi Tenen
+date: 2025-05-10
+---
 
 Reading Thad Dunning's *Natural Experiments in the Social Science* (Cambridge, 2012) I am
 particularly struck by his discussion of study design. "How can causal inference be improved?"
@@ -40,7 +42,11 @@ Simplicity ultimately breeds transparency. Again, Dunning: "Analyzing data from 
 designs — including true and natural experiments — requires analysts to invoke assumptions
 about the process that gives rise to observed data (106)." For me, here finally lies the
 subtle but crucial point of his argument: all of the above remains true not just for natural
-experiments, but for strong research study design in computational humanities more generally.
+experiments, but for strong research study design in computational humanities and social
+sciences more generally. Christopher H. Achen makes a similar point in his wonderful paper on
+"Garbage-Can Regressions," arguing for a more a "sophisticated simplicity" in study design and
+a more "creative engagement with the data."
+
 The "study-design" mindset fits well with my organic inclinations as a humanist. I don't
 normally reason by data manipulation. The vagrancies of culture force me to think contextually:
 in terms of processes, timelines, relationships, narratives. And I would like to remain in that
