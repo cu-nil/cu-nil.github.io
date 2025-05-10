@@ -8,5 +8,5 @@
   path: /series
 - name: Resources
   path: /resources
-- name: Archive
-  path: https://xpmethod.columbia.edu
+- name: Memos
+  path: /memos
