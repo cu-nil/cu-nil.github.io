@@ -8,7 +8,7 @@ layout: default
 
 {% include section-break.html section="Lab Memo" subsection=subsection_text %}
 
-<div class="mx-4 lg:mx-8 grid grid-cols-1 md:grid-cols-3 mb-8 lg:mb-16 items-center">
+<div class="mx-4 lg:mx-8 mb-8 lg:mb-16 items-center">
     <!-- Tag & Title (Always First) -->
     <div class="md:col-span-2">
 
@@ -17,7 +17,7 @@ layout: default
             {{ item.title }}
         </div>
 
-        <div class="text-xs font-ibmserif mt-2 italic pb-2 border-b-2 md:border-none border-dashed border-gray-400">
+        <div class="text-xs font-ibmserif mt-2 italic pb-2 md:border-none">
             {% for person in item.people %}
               {{ person }}{% unless forloop.last %}, {% endunless %}
             {% endfor %}
@@ -25,20 +25,10 @@ layout: default
 
     </div>
 
-    <!-- Image Section (Appears between title and text in mobile, right side in desktop) -->
-    <div class="w-full order-2 md:col-span-1 md:order-3 self-start py-5">
-
-        <img class="w-full h-10 sm:h-15 md:h-auto object-cover rounded-lg" src="/assets/images/{{
-        item.image_folder | default: 'projects' }}/{{ item.image }}" alt="{{ item.image_alt }}">
-
-    </div>
-
     <!-- Text Section (Takes 2/3 space on desktop, below image in mobile) -->
 
-    <div class="prose-sm md:prose-base md:col-span-2 md:pr-6 order-3 md:order-2 font-ibmserif">
+    <div class="prose-sm mx-8 md:prose-base md:col-span-2 md:pr-6 order-3 md:order-2 font-ibmserif">
 
             {{ item.content | markdownify  }}
     </div>
 </div>
-
-
