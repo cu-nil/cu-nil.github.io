@@ -1,7 +1,16 @@
 ---
 title: "Memo 1: On Study Design in Computational Humanities"
-author: Dennis Yi Tenen
-date: 2025-05-10
+author: "Dennis Yi Tenen"
+date: "May 10, 2025"
+documentclass: texMemo
+mainfont: "fbb"
+header-includes: |
+  \usepackage{graphicx}
+  \memoto{Recipient Name}
+  \memofrom{Dennis Yi Tenen}
+  \memosubject{Memo 1: On Study Design in Computational Humanities}
+  \memodate{\today}
+  \memologo{\includegraphics[width=0.3\textwidth]{cunil-logo.png}}
 ---
 
 Reading Thad Dunning's *Natural Experiments in the Social Science* (Cambridge, 2012) I am
@@ -15,7 +24,7 @@ This approach seems particularly well-suited for computational study in the huma
 "the veracity of causal and statistical assumptions that are often difficult to explicate
 and defend — let alone validate." The natural experiment approach seeks to shift reasoning
 about such assumptions from the statistical modeling part of the research process, expressed
-mathematically, to the design process, expressed in the logic of the world observed. "With
+mathematically, to the design process, expressed in the logic of the world observed: "With
 natural experiments, it is the research design, rather than the statistical modeling, that
 compels conviction."
 
@@ -44,10 +53,12 @@ about the process that gives rise to observed data (106)." For me, here finally 
 subtle but crucial point of his argument: all of the above remains true not just for natural
 experiments, but for strong research study design in computational humanities and social
 sciences more generally. Christopher H. Achen makes a similar point in his wonderful paper on
-"Garbage-Can Regressions," arguing for a more a "sophisticated simplicity" in study design and
-a more "creative engagement with the data."
+"Garbage-Can Regressions," arguing for "sophisticated simplicity" in study design, engaging
+more "creatively" with the data.
 
-The "study-design" mindset fits well with my organic inclinations as a humanist. I don't
-normally reason by data manipulation. The vagrancies of culture force me to think contextually:
-in terms of processes, timelines, relationships, narratives. And I would like to remain in that
-realm as long as possible when doing computational research.
+The study-design mindset fits well with my organic inclinations as a humanist. I don't
+normally reason by data manipulation. Reasoning by data manipulation alone risks "cooking the
+books" in losing sight of the underlying social or linguistic dynamics. The vagrancies of
+culture force me to think contextually: in terms of processes, timelines, customs, genres,
+relationships, narratives, etc. And I would like to remain firmly grounded in that realm when
+doing computational research.
