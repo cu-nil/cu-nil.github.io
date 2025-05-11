@@ -40,6 +40,11 @@ collections:
     permalink: /events/:path/
     name: "events"
     image_folder: "events"  # Default image folder for projects
+  memos:
+    output: true
+    permalink: /memos/:path/
+    name: "memos"
+    image_folder: "memos"  # Default image folder for projects
 
 defaults:
   - scope:
@@ -55,3 +60,9 @@ defaults:
     values:
       layout: project
       image_folder: "events"
+
+  - scope:
+      path: "collections/_memos"  # Applies to all files in the projects collection
+      type: "memos"
+    values:
+      layout: memo

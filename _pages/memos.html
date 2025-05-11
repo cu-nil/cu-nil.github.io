@@ -4,3 +4,17 @@ title: "Memos"
 permalink: /memos/
 ---
 
+{% include section-break.html section="Lab Memos" %}
+
+<div class="mx-4 lg:mx-8 mb-8 lg:mb-16 items-center">
+    <ul>
+      {% for memo in site.memos %}
+
+        <li>
+            <div class="font-bold"><a href="{{ memo.url }}">{{ memo.title }}</a></div>
+            <div class="text-sm font-mono text-gray-600">{{ memo.date | date: "%B %d, %Y" }}</div>
+        </li>
+
+      {% endfor %}
+    </ul>
+</div>

@@ -1,5 +1,5 @@
 ---
-title: "Memo 1: On Study Design in Computational Humanities"
+title: "On Study Design in Computational Humanities"
 author: "Dennis Yi Tenen"
 date: "May 10, 2025"
 documentclass: texMemo
