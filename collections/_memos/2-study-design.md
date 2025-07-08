@@ -4,6 +4,7 @@ author: "Dennis Yi Tenen"
 date: "May 10, 2025"
 documentclass: texMemo
 mainfont: "fbb"
+published: false
 header-includes: |
   \usepackage{graphicx}
   \memoto{Recipient Name}
