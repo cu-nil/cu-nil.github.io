@@ -1,5 +1,5 @@
   - name: Dennis Yi Tenen
-    affiliation: English and Comparative Literature
+    affiliation: English & Comparative Literature
     university: Columbia University
     title: Director
     link: https://dennistenen.com/
@@ -47,7 +47,7 @@
       - 2025
 
   - name: Julia Meghan Walton
-    affiliation: English and Comparative Literature
+    affiliation: English & Comparative Literature
     university: Columbia University
     title: Graduate Research Fellow
     link: https://english.columbia.edu/content/julia-meghan-walton
@@ -57,7 +57,7 @@
       - 2025
 
   - name: Ramathi Bandaranayake
-    affiliation: English and Comparative Literature
+    affiliation: English & Comparative Literature
     university: Columbia University
     title: Graduate Research Fellow
     link: https://english.columbia.edu/content/ramathi-bandaranayake
@@ -72,6 +72,16 @@
     title: Graduate Research Fellow
     link: https://www.linkedin.com/in/barbara-rosko%C5%A1a-735257209
     image: favatar6.png
+    year:
+      - 2024
+      - 2025
+
+  - name: Aya Labanieh
+    affiliation: English & Comparative Literature
+    university: Columbia University
+    title: Graduate Research Fellow
+    link: https://ayalabanieh.com/
+    image: aya.jpeg
     year:
       - 2024
       - 2025
