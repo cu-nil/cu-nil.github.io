@@ -4,15 +4,14 @@ author: "Dennis Yi Tenen"
 date: "May 10, 2025"
 documentclass: texMemo
 mainfont: "fbb"
-layout: memo
 published: false
 header-includes: |
   \usepackage{graphicx}
   \memoto{Recipient Name}
   \memofrom{Dennis Yi Tenen}
-  \memosubject{Memo 2: On Study Design in Computational Humanities}
+  \memosubject{Memo 1: On Study Design in Computational Humanities}
   \memodate{\today}
-  \memologo{\includegraphics[width=0.3\textwidth]{assets/cunil-logo.png}}
+  \memologo{\includegraphics[width=0.3\textwidth]{cunil-logo.png}}
 ---
 
 Reading Thad Dunning's *Natural Experiments in the Social Science* (Cambridge, 2012) I am

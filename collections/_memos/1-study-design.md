@@ -2,7 +2,7 @@
 title: "On Study Design in Computational Humanities"
 author: "Dennis Yi Tenen"
 date: "May 10, 2025"
-documentclass: texMemo
+documentclass: assets/texMemo
 mainfont: "fbb"
 layout: memo
 published: true
@@ -10,7 +10,7 @@ header-includes: |
   \usepackage{graphicx}
   \memoto{Recipient Name}
   \memofrom{Dennis Yi Tenen}
-  \memosubject{Memo 1: On Study Design in Computational Humanities}
+  \memosubject{Note 1: On Study Design in Computational Humanities}
   \memodate{\today}
   \memologo{\includegraphics[width=0.3\textwidth]{assets/cunil-logo.png}}
 ---
