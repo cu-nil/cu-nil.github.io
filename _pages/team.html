@@ -9,7 +9,7 @@ permalink: /team/
 
 <div class="mt-4 mx-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-5xl">
     {% for member in site.data.team %}
-        <div class="bg-white rounded-md p-3 flex flex-col items-start gap-3">
+        <div class="bg-white rounded-md p-3 flex flex-col items-start">
 
             <!-- Profile Image (Left-Aligned for Balance) -->
             <img class="w-20 h-20 rounded-xl object-cover self-start" 
@@ -17,26 +17,28 @@ permalink: /team/
                  alt="Profile photo of {{ member.name }}" />
 
             <!-- Title Section -->
-            <div class="flex items-center">
-                 —<p class="text-sm ml-1 leading-none text-gray-500 font-ibmsans text-left">{{ member.title }}</p>
-            </div>
-
             <span class="p0 m0">
                 <!-- Name (Left-Aligned) -->
                 {% if member.link %}
-                    <a href="{{ member.link }}" target="_blank" class="hover:text-sky-800 text-base font-semibold mt-1 block text-left">
+                    <a href="{{ member.link }}" target="_blank" class="hover:text-sky-800 text-base font-semibold block text-left">
                         <h2 class="font-ibmserif">{{ member.name }}</h2>
                     </a>
                 {% else %}
-                    <h2 class="font-ibmserif text-base font-semibold mt-1 text-left">{{ member.name }}</h2>
+                    <h2 class="font-ibmserif text-base font-semibold text-left">{{ member.name }}</h2>
                 {% endif %}
+
+            <div class="flex items-center bg-gray-100">
+                 <small class="leading-none text-gray-600 text-left leading-tight">{{
+                     member.title }}</small>
+            </div>
+
 
                 <!-- Affiliation (Left-Aligned) -->
 
-                <small class="text-gray-600 font-ibmsans text-left block leading-tight">
+                <small class="text-gray-600 text-left block leading-tight">
                     {{ member.affiliation }}
                 </small>
-                <small class="font-ibmserif block leading-tight">
+                <small class="text-gray-600 block leading-tight">
                     {{ member.university }}
                 </small>
             </span>

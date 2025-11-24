@@ -1,7 +1,7 @@
   - name: Dennis Yi Tenen
-    affiliation: Department of English and Comparative Literature
+    affiliation: English and Comparative Literature
     university: Columbia University
-    title: Founder, Faculty Associate
+    title: Director
     link: https://dennistenen.com/
     image: denten.jpg
     year:
@@ -9,7 +9,7 @@
       - 2025
 
   - name: Jessica Merrill
-    affiliation: Department of Slavic Languages
+    affiliation: Slavic Languages
     university: Columbia University
     title: Faculty Associate
     link: https://slavic.columbia.edu/content/jessica-e-merrill
@@ -19,7 +19,7 @@
       - 2025
 
   - name: Moira Weigel
-    affiliation: Department of Comparative Literature
+    affiliation: Comparative Literature
     university: Harvard University
     title: Faculty Associate
     link: https://complit.fas.harvard.edu/people/moira-weigel/
@@ -47,7 +47,7 @@
       - 2025
 
   - name: Julia Meghan Walton
-    affiliation: Department of English and Comparative Literature
+    affiliation: English and Comparative Literature
     university: Columbia University
     title: Graduate Research Fellow
     link: https://english.columbia.edu/content/julia-meghan-walton
@@ -57,7 +57,7 @@
       - 2025
 
   - name: Ramathi Bandaranayake
-    affiliation: Department of English and Comparative Literature
+    affiliation: English and Comparative Literature
     university: Columbia University
     title: Graduate Research Fellow
     link: https://english.columbia.edu/content/ramathi-bandaranayake
@@ -67,7 +67,7 @@
       - 2025
 
   - name: Barbara Roskosa
-    affiliation: Department of Anthropology
+    affiliation: Anthropology
     university: Columbia University
     title: Graduate Research Fellow
     link: https://www.linkedin.com/in/barbara-rosko%C5%A1a-735257209
@@ -118,7 +118,7 @@
       - 2025
 
   - name: Quynh Hai Luong
-    affiliation: Department of East Asian Languages & Cultures
+    affiliation: East Asian Languages & Cultures
     university: Columbia University
     title: Graduate Research Fellow
     link: null
