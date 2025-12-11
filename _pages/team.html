@@ -9,93 +9,103 @@ permalink: /team/
 
 {% include section-break.html section='Team' subsection='Faculty, students, librarians.' %}
 
-<div class="mt-4 mx-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-5xl">
-  {% for member in active_members %}
-    <div class="bg-white rounded-md p-3 flex flex-col items-start">
+<!-- ACTIVE MEMBERS GRID -->
+<div class="mt-4 max-w-5xl mx-auto px-8">
+  <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
-      <!-- Profile Image -->
-      <img class="w-20 h-20 rounded-xl object-cover self-start"
-           src="/assets/images/team/{{ member.image }}"
-           alt="Profile photo of {{ member.first_name }} {{ member.last_name }}" />
+    {% for member in active_members %}
+      <div class="bg-white rounded-md p-3 flex flex-col items-start">
 
-      <span class="p0 m0">
-        <!-- Name -->
-        {% if member.link %}
-          <a href="{{ member.link }}" target="_blank" class="hover:text-sky-800 text-base font-semibold block text-left">
-            <h2 class="font-ibmserif">
+        <!-- Profile Image -->
+        <img class="w-20 h-20 rounded-xl object-cover self-start"
+             src="/assets/images/team/{{ member.image }}"
+             alt="Profile photo of {{ member.first_name }} {{ member.last_name }}" />
+
+        <span class="p0 m0">
+
+          <!-- Name -->
+          {% if member.link %}
+            <a href="{{ member.link }}" target="_blank"
+               class="hover:text-sky-800 text-base font-semibold block text-left">
+              <h2 class="font-ibmserif">
+                {{ member.first_name }} {{ member.last_name }}
+              </h2>
+            </a>
+          {% else %}
+            <h2 class="font-ibmserif text-base font-semibold text-left">
               {{ member.first_name }} {{ member.last_name }}
             </h2>
-          </a>
-        {% else %}
-          <h2 class="font-ibmserif text-base font-semibold text-left">
-            {{ member.first_name }} {{ member.last_name }}
-          </h2>
-        {% endif %}
+          {% endif %}
 
-        <!-- Title -->
-        <div class="flex items-center bg-gray-100">
-          <small class="leading-none text-gray-900 text-left leading-tight">
-            {{ member.title }}
+          <!-- Title -->
+          <div class="flex items-center bg-gray-100">
+            <small class="leading-none text-gray-900 text-left leading-tight">
+              {{ member.title }}
+            </small>
+          </div>
+
+          <!-- Years active -->
+          {% if member.year %}
+            {% assign start_year = member.year | first %}
+            {% assign end_year   = member.year | last %}
+            <small class="text-gray-500 text-left block leading-tight">
+              {% if start_year == end_year %}
+                {{ start_year }}
+              {% else %}
+                {{ start_year }}–{{ end_year }}
+              {% endif %}
+            </small>
+          {% endif %}
+
+          <!-- Affiliation / University -->
+          <small class="text-gray-600 text-left block leading-tight">
+            {{ member.affiliation }}
           </small>
-        </div>
-
-        <!-- Years active (optional) -->
-        {% if member.year %}
-          {% assign start_year = member.year | first %}
-          {% assign end_year   = member.year | last %}
-          <small class="text-gray-500 text-left block leading-tight">
-            {% if start_year == end_year %}
-              {{ start_year }}
-            {% else %}
-              {{ start_year }}–{{ end_year }}
-            {% endif %}
+          <small class="text-gray-600 block leading-tight">
+            {{ member.university }}
           </small>
-        {% endif %}
 
-        <!-- Affiliation / University -->
-        <small class="text-gray-600 text-left block leading-tight">
-          {{ member.affiliation }}
-        </small>
-        <small class="text-gray-600 block leading-tight">
-          {{ member.university }}
-        </small>
-      </span>
+        </span>
 
-    </div>
-  {% endfor %}
+      </div>
+    {% endfor %}
+
+  </div>
 </div>
 
+
+
+<!-- ALUMNI SECTION -->
 {% if alum_members and alum_members.size > 0 %}
   {% include section-break.html section='Alums' subsection='Past members of the lab.' %}
 
   {% assign sorted_alums = alum_members | sort: "last_name" %}
 
-  <div class="mt-4 mx-8 max-w-3xl">
+  <div class="mt-8 max-w-5xl mx-auto px-8">
     <ul class="space-y-3">
+
       {% for member in sorted_alums %}
         <li class="flex flex-col sm:flex-row sm:items-center sm:gap-2 text-sm">
 
           <div class="flex flex-col">
 
-          <!-- Name -->
-          <span class="font-semibold">
-            {{ member.first_name }} {{ member.last_name }}
-          </span>
+            <!-- Name -->
+            <span class="font-semibold">
+              {{ member.first_name }} {{ member.last_name }}
+            </span>
 
-          <!-- Title -->
-          <span class="text-gray-700">
-            {{ member.title }}
-          </span>
+            <!-- Title -->
+            <span class="text-gray-700 leading-tight">
+              {{ member.title }}
+            </span>
 
-
-            <!-- Affiliation + University (NEW position) -->
+            <!-- Affiliation + University -->
             <span class="text-gray-600 leading-tight">
               {% if member.affiliation %}
                 {{ member.affiliation }},
               {% endif %}
               {{ member.university }}
             </span>
-
 
           </div>
 
@@ -114,6 +124,8 @@ permalink: /team/
 
         </li>
       {% endfor %}
+
     </ul>
   </div>
+
 {% endif %}
