@@ -8,10 +8,10 @@ published: true
 header-includes: |
   \usepackage{graphicx}
   \memoto{Recipient Name}
-  \memofrom{Dennis Yi Tenen}
-  \memosubject{Memo 3: What is Digital Ethnography?}
+  \memofrom{Narrative Intelligence Lab}
+  \memosubject{Memo 3, What is Digital Ethnography?}
   \memodate{\today}
-  \memologo{\includegraphics[width=0.3\textwidth]{cunil-logo.png}}
+  \memologo{\includegraphics[width=0.3\textwidth]{assets/cunil-logo.png}}
 ---
 
 What is digital in digital ethnography? Setting aside the long and over-theorized history of
@@ -227,40 +227,41 @@ Jaehyo
 Olivia
 Aya 
 
+
 ## Works Cited
 
-Bowker, Geoffrey C., and Susan Leigh Star. 1999. Sorting Things Out: Classification and Its Consequences. Cambridge, MA: MIT Press.
+Bowker, Geoffrey C., and Susan Leigh Star. 1999. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press.
 
-Burawoy, Michael. 1998. “The Extended Case Method.” Sociological Theory 16 (1): 4–33.
+Burawoy, Michael. 1998. “The Extended Case Method.” *Sociological Theory* 16 (1): 4–33.
 
-Clifford, James. 1986. “Introduction: Partial Truths.” In Writing Culture: The Poetics and Politics of Ethnography, edited by James Clifford and George E. Marcus, 1–26. Berkeley: University of California Press.
+Clifford, James. 1986. “Introduction: Partial Truths.” In *Writing Culture: The Poetics and Politics of Ethnography*, edited by James Clifford and George E. Marcus, 1–26. Berkeley: University of California Press.
 
-Edwards, Paul N. 2003. “Infrastructure and Modernity: Force, Time, and Social Organization in the History of Sociotechnical Systems.” In Modernity and Technology, edited by Thomas J. Misa, Philip Brey, and Andrew Feenberg, 185–225. Cambridge, MA: MIT Press.
+Edwards, Paul N. 2003. “Infrastructure and Modernity: Force, Time, and Social Organization in the History of Sociotechnical Systems.” In *Modernity and Technology*, edited by Thomas J. Misa, Philip Brey, and Andrew Feenberg, 185–225. Cambridge, MA: MIT Press.
 
-Emerson, Robert M., Rachel I. Fretz, and Linda L. Shaw. 1995. Writing Ethnographic Fieldnotes. Chicago: University of Chicago Press.
+Emerson, Robert M., Rachel I. Fretz, and Linda L. Shaw. 1995. *Writing Ethnographic Fieldnotes*. Chicago: University of Chicago Press.
 
-Geertz, Clifford. 1973. The Interpretation of Cultures. New York: Basic Books.
+Geertz, Clifford. 1973. *The Interpretation of Cultures*. New York: Basic Books.
 
-Gillespie, Tarleton. 2018. Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media. New Haven, CT: Yale University Press.
+Gillespie, Tarleton. 2018. *Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions That Shape Social Media*. New Haven, CT: Yale University Press.
 
-Hargittai, Eszter. 2020. “Potential Biases in Big Data: Omitted Voices on Social Media.” Annals of the American Academy of Political and Social Science 659 (1): 63–76.
+Hargittai, Eszter. 2020. “Potential Biases in Big Data: Omitted Voices on Social Media.” *Annals of the American Academy of Political and Social Science* 659 (1): 63–76.
 
-Larkin, Brian. 2013. “The Politics and Poetics of Infrastructure.” Annual Review of Anthropology 42: 327–43.
+Larkin, Brian. 2013. “The Politics and Poetics of Infrastructure.” *Annual Review of Anthropology* 42: 327–43.
 
-Lessig, Lawrence. 1999. Code and Other Laws of Cyberspace. New York: Basic Books.
+Lessig, Lawrence. 1999. *Code and Other Laws of Cyberspace*. New York: Basic Books.
 
-Marcus, George E. 1995. “Ethnography In/Of the World System: The Emergence of Multi-Sited Ethnography.” Annual Review of Anthropology 24: 95–117.
+Marcus, George E. 1995. “Ethnography In/Of the World System: The Emergence of Multi-Sited Ethnography.” *Annual Review of Anthropology* 24: 95–117.
 
-Malinowski, Bronisław. 1922. Argonauts of the Western Pacific. London: Routledge.
+Malinowski, Bronisław. 1922. *Argonauts of the Western Pacific*. London: Routledge.
 
-Park, Robert E. 1915. “The City: Suggestions for the Study of Human Nature in the Urban Environment.” American Journal of Sociology 20 (5): 577–612.
+Park, Robert E. 1915. “The City: Suggestions for the Study of Human Nature in the Urban Environment.” *American Journal of Sociology* 20 (5): 577–612.
 
-Rabinow, Paul. 1977. Reflections on Fieldwork in Morocco. Berkeley: University of California Press.
+Rabinow, Paul. 1977. *Reflections on Fieldwork in Morocco*. Berkeley: University of California Press.
 
-Shaw, Aaron, and Benjamin Mako Hill. 2014. “Laboratories of Oligarchy? How the Iron Law Extends to Peer Production.” Journal of Communication 64 (2): 215–238.
+Shaw, Aaron, and Benjamin Mako Hill. 2014. “Laboratories of Oligarchy? How the Iron Law Extends to Peer Production.” *Journal of Communication* 64 (2): 215–238.
 
-Star, Susan Leigh, and Karen Ruhleder. 1996. “Steps Toward an Ecology of Infrastructure: Design and Access for Large Information Spaces.” Information Systems Research 7 (1): 111–134.
+Star, Susan Leigh, and Karen Ruhleder. 1996. “Steps Toward an Ecology of Infrastructure: Design and Access for Large Information Spaces.” *Information Systems Research* 7 (1): 111–134.
 
-Yi Tenen, Dennis. 2017. Plain Text: The Poetics of Computation. Stanford, CA: Stanford University Press.
+Yi Tenen, Dennis. 2017. *Plain Text: The Poetics of Computation*. Stanford, CA: Stanford University Press.
 
-Yi Tenen, Dennis, and Maxwell Foxman. 2014. “Book Piracy as Peer Preservation.” Computational Culture 4.
+Yi Tenen, Dennis, and Maxwell Foxman. 2014. “Book Piracy as Peer Preservation.” *Computational Culture* 4.
