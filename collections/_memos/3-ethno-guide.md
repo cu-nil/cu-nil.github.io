@@ -220,7 +220,7 @@ study, and infrastructural inquiry. Surface representations never exhaust the fi
 of digital ethnography lies in assembling descriptions thick enough to register the conditions
 that make such appearances possible.
 
-Dennis Yi Tenen
+Dennis
 Barbara
 Linda
 Jaehyo
