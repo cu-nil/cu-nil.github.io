@@ -68,12 +68,11 @@ Finally, the study confronted overlapping regimes of regulation. Library Genesis
 
 Taken together, the Libgen case illustrates how digital ethnography can proceed in practice: by moving deliberately across surface representation, mediating infrastructures, and regulatory constraints, and by augmenting participant observation with computational analysis, media archaeology, platform study, and network analysis. Such surface representations can never exhaust the field, of course. Instead, the task of digital ethnography remains in assembling descriptions thick enough to register the conditions that make such appearances possible.
 
-Dennis
-Barbara
-Linda
-Jaehyo
-Olivia
-Aya 
+Dennis  
+Barbara  
+Linda  
+Olivia  
+Aya  
 
 
 ## Works Cited
