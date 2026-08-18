@@ -48,6 +48,17 @@
   image: moacir.png
   year: [2024, 2025, 2026]
 
+- first_name: Yingyi
+  last_name: Shu
+  affiliation: 
+  university: Columbia University
+  active: true
+  title: Research Fellow
+  link:
+  image: yingyi.jpeg
+  year: [2025, 2026]
+
+
 - first_name: Julia Meghan
   last_name: Walton
   affiliation: English & Comparative Literature
