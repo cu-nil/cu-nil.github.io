@@ -3,7 +3,7 @@
 <div class="projects-card mx-4 lg:mx-8 grid grid-cols-1 md:grid-cols-3 gap-4 mb-4 items-center">
     <!-- Tag & Title (Always First) -->
 
-    {% include card-title.html tag=item.tag title=item.title %}
+    {% include card-title.html tag=item.tag title=item.title url=item.url %}
 
     <!-- Image Section (Appears between title and text in mobile, right side in desktop) -->
     <div class="w-full order-2 md:col-span-1 md:order-3 self-start">
