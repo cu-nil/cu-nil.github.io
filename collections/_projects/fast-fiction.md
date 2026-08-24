@@ -37,7 +37,7 @@ found in one work recur across others. If that constraint becomes stronger under
 production, we can connect changes in the organization of literary labor to corresponding
 changes in the prose.
 
-**Text Reuse in the Pulp Magazine Archive: Study Design**  
+**Text Reuse in the Pulp Magazine Archive**  
 in collaboration with Heejin Kim and team, Digital Humanities Engineering Center, Kyungpook National University
 
 [Study design submitted to Computational Humanities Research in August, 2026]
