@@ -1,10 +1,10 @@
 - name: Research
   path: /research
+- name: Memos
+  path: /memos
 - name: Team
   path: /team
 - name: Events
   path: /events
-- name: Book Series
-  path: /series
 - name: Resources
   path: /resources

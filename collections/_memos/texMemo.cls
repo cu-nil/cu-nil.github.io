@@ -33,6 +33,7 @@
 
 % Adjusted Memo Title and Logo positioned at top margin
 \renewcommand{\maketitle}{
+    \thispagestyle{empty} % no page number on the first page
     \vspace*{-1.2cm} % moves entire header upwards significantly
     \noindent
     \begin{minipage}[t]{0.7\textwidth}
@@ -61,3 +62,16 @@
 \renewcommand\labelitemii{$\circ$}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Sign-off block: signature (if assets/.signature.png or .pdf exists; kept out of git and the site), name in mono, title lines.
+% Use in a memo's front matter:  include-after: \memosignoff{DENTEN}{Director}
+\newcommand{\memosignoff}[2]{%
+  \par\bigskip\noindent
+  \begin{minipage}[t]{0.5\textwidth}
+    \IfFileExists{assets/.signature.pdf}{\includegraphics[height=1.4cm]{assets/.signature.pdf}\\}{%
+    \IfFileExists{assets/.signature.png}{\includegraphics[height=1.4cm]{assets/.signature.png}\\}{\rule{0pt}{1.4cm}\\}}%
+    {\ttfamily #1}\\
+    {\small #2, Narrative Intelligence Lab\\
+    Columbia University}
+  \end{minipage}\par
+}

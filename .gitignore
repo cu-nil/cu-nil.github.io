@@ -5,3 +5,6 @@ _site
 node_modules
 .aider*
 .env
+
+# signature image: hidden (dot) name so Jekyll skips it; used to build memo PDFs locally, never published
+collections/_memos/assets/.signature.*

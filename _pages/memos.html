@@ -6,15 +6,27 @@ permalink: /memos/
 
 {% include section-break.html section="Lab Memos" %}
 
-<div class="mx-4 lg:mx-8 mb-8 lg:mb-16 items-center">
-    <ul>
-      {% for memo in site.memos %}
+{% assign memos = site.memos | where_exp: "m", "m.pdf" | sort: "memo_no" %}
 
-        <li>
-            <div class="font-bold"><a href="{{ memo.url }}">{{ memo.title }}</a></div>
-            <div class="text-sm font-mono text-gray-600">{{ memo.date | date: "%B %d, %Y" }}</div>
-        </li>
-
-      {% endfor %}
-    </ul>
+<div class="mx-4 lg:mx-8 mb-8 lg:mb-16">
+  <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-10">
+    {% for memo in memos %}
+      <li>
+        <a href="{{ memo.pdf }}" class="group block">
+          <div class="font-mono text-xs uppercase tracking-widest text-gray-600 border-b border-gray-400 pb-1 mb-2">
+            Memo No. {{ memo.memo_no }}
+          </div>
+          <img src="/assets/images/memos/{{ memo.thumb }}"
+               alt="First page of memo {{ memo.memo_no }}: {{ memo.title }}"
+               class="w-full border border-gray-300 shadow-sm group-hover:border-sky-700 group-hover:shadow-md transition">
+          <div class="mt-2 font-ibmsans font-bold text-sm leading-snug group-hover:text-sky-700">
+            {{ memo.title }}
+          </div>
+          <div class="font-mono text-xs text-gray-600 mt-1">
+            {{ memo.date | date: "%Y-%m-%d" }} · PDF
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

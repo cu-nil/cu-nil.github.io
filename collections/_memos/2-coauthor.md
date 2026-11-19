@@ -1,7 +1,10 @@
 ---
-title: "Co-authorship Attribution Guidelines"
+memo_no: "002"
+pdf: /memos/2-coauthor.pdf
+thumb: 002.png
+title: "Lab Co-authorship by the Numbers"
 author: "Dennis Yi Tenen"
-date: "November 15th, 2025"
+date: "November 19, 2026"
 documentclass: assets/texMemo
 mainfont: "fbb"
 layout: memo
@@ -10,85 +13,58 @@ header-includes: |
   \usepackage{graphicx}
   \memoto{Recipient Name}
   \memofrom{Dennis Yi Tenen}
-  \memosubject{Note 2: Co-authorship Attribution Guidelines}
-  \memodate{\today}
+  \memosubject{Memo 002: Lab Co-authorship by the Numbers}
+  \memodate{November 19, 2026}
   \memologo{\includegraphics[width=0.3\textwidth]{assets/cunil-logo.png}}
 ---
 
 
-The following articulates a set of guidelines for determining author order, assigning roles,
-setting clear expectations, and crediting fairly in a varied collaborative environment.
-These guidelines were written (a) in consultation with several similar labs, (b) in review of
-relevant literature<sup>1-4</sup>, and (c) in light of existing standards<sup>5-6</sup>.
+Dear Friends,
 
-It is important to discuss authorship attribution early and throughout the project.<sup>5</sup>
-Each repository will generally contain a `CRedIT.md` file, capturing a snapshot of that
-conversation. Though assigned formally, we expect roles to occasionally change and evolve
-throughout a project's lifecycle.
+What does it take to become a co-author? Our lab is dedicated to the empirical study of
+collective storytelling by collective means. We can therefore use good statistical insight
+to also study ourselves, with an eye toward establishing fair and transparent practices of
+labor attribution.
 
-We recommend for the contents of the CRedIT.md log to be narrativized concisely inclusion in
-the "attribution footnote," at the time of the publication.
+A survey of our recent projects should give you a rough sense of what it takes to bring a
+project from brainstorm to publication. For example, the "Fast Fiction" short paper submitted
+to Computational Humanities Research in 2026 logs roughly 580 commits over the course of 22
+days, spread over four months. This translates to somewhere between 125 and 155 hours of active
+work "at the keyboard" and roughly twice that in the reading, archival, and administrative work
+away from the computer. The Syndicate and Pulp Fiction Reuse projects are on track to hit similar
+metrics as they mature.
 
-## First, Second, Middle, Last (FSML) Author Emphasis Model
+These figures should give you a good sense of what it takes to participate fully in
+scholarly publication. An equal co-author is expected to contribute half of the labor. It
+would be reasonable to expect third or fourth authors to contribute fractionally less,
+though still meaningfully so.
 
-*First*, *Second*, *Middle*, and *Last* authors play distinct but dynamic roles as part of a
-research team. In case of multiples, "bin" to role, but keep it reasonable: One first, second,
-and last author is always preferable for clarity.
+Because we work and think together often, our contributions are pooled in small but
+important ways, in which we challenge and inspire each other. For this reason, I propose
+for most of our "lab" papers to be authored with the Narrative Intelligence Lab in the role
+of the last co-author, with individual fractional contributors named and listed by role
+according to the CRediT taxonomy.
 
-***First author/s*** tend to do the most work as well as being responsible, especially for
-project conceptualization and methodology.
+But where do we draw the line between footnote and headline credit? A rule of thumb might
+be to prioritize support for colleagues recently entering graduate school or the job
+market, who might most benefit from establishing a scholarly track record of publication.
 
-***Second author/s*** tend to make deep contributions in several specific areas of
-responsibility.
+Outside professional considerations, we might agree that participation in the low double digits
+(let's say less than 30 total logged hours in the case of "Fast Fiction," give or take) would
+fall into the collective acknowledgement category, and anything above begins to approach named
+authorship.
 
-***Middle author/s*** usually play significant supporting roles.
+These thoughts finally highlight the importance of logging our work transparently, through
+GitHub and git commits. The lab's AI harness is also set up to keep a daily research log
+automatically. If you aren't familiar with these tools yet, please reach out to schedule a
+training session with me or one of our leads.
 
-***Last author/s*** usually involve more senior scholars, who write, supervise, fund,
-administrate, and place, contributing meaningfully also to selected areas of deep expertise.
+Meanwhile remember this simple tenet: Make your labor visible! And to make your labor visible,
+get into the habit of keeping careful records---logbooks or diaries to better document our
+journey together. The CHR paper is due tonight, at "23:59 Anywhere on Earth." See you
+there.
 
-Ad-hoc contributions not rising to the level of authorship can be credited in the attribution
-footnote.
-
-## Considerations
-
-- Facilitate clear ownership of specific tasks.
-- The lab's GitHub project template includes a CREDIT file that should be updated regularly.
-- Using logged tools such as as GitHub and Google Docs helps keep the contributions transparent.
-Try to always capture your offline work in the form of memos or logs committed to the project's
-GitHub repository.
-- Late projects may be reassigned, under consultation between lab faculty advisors.
-- An internal review should generally precede journal or conference submission.
-- Be open and forthright about your expectations. Do not hesitate to bring up any issues that
-may arise with the lab's faculty advisors.
-
-## CRedIT
-
-> CRediT is a high-level taxonomy, including 14 roles, that can be used to represent the roles
-typically played by contributors to scientific scholarly output. The roles describe each
-contributor’s specific contribution to the scholarly output.<sup>5</sup>
-
-The [Training Data Lab][002] at Leiden University, Netherlands, provides a concise graphical
-representation of the labels as follows:
-
-| **Badge** | **Role** | **Definition**
-|---|---|---|
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/conceptualization.png" align="center" width="60" />](conceptualization.png) | Conceptualization | Ideas, formulation or evolution of overarching research goals and aims. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/data_curation.png" align="center" width="60" />](data_curation.png) | Data curation | Produce metadata, scrub data and maintain research data for initial use and later re-use. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/formal_analysis.png" align="center" width="60" />](formal_analysis.png) | Formal analysis | Application of statistical, mathematical, computational, or other formal techniques to analyze data. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/funding_acquisition.png" align="center" width="60" />](funding_acquisition.png) | Funding acquisition | Acquisition of the financial support for the project leading to this publication. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/investigation.png" align="center" width="60" />](investigation.png) | Investigation | Conducting a research and investigation process, specifically performing the data collection. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/methodology.png" align="center" width="60" />](methodology.png) | Methodology | Development or design of methodology; creation of models. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/project_administration.png" align="center" width="60" />](project_administration.png) | Project administration | Management and coordination responsibility for the research activity planning and execution. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/resources.png" align="center" width="60" />](resources.png) | Resources | Provision of study materials, instrumentation, computing resources, or other analysis tools. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/computation.png" align="center" width="60" />](computation.png) | Software | Programming, software development; designing computer programs; implementation of the computer code and supporting algorithms. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/supervision.png" align="center" width="60" />](supervision.png) | Supervision | Oversight for the research activity planning and execution, including mentorship external to the core team. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/testing.png" align="center" width="60" />](testing.png) | Validation | Replication of results and other research outputs. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/data_visualization.png" align="center" width="60" />](data_visualization.png) | Visualization | Preparation, creation and/or presentation of the published work, specifically data presentation. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/writing_initial_draft.png" align="center" width="60" />](writing_initial_draft.png) | Writing – original draft | Preparation, creation and/or presentation of the published work, specifically writing the initial draft. |
-| [<img src="https://github.com/cu-nil/chnotes/blob/master/images/badges/writing_review.png" align="center" width="60" />](writing_review.png) | Writing – review and editing | Critical review, commentary or revision – including pre- or post-publication stages. |
-
-[001]: https://web.archive.org/web/20250503023409/https://credit.niso.org/
-[002]: https://web.archive.org/save/https://training-datalab.com/en/credit/
+\memosignoff{DENTEN}{Director}
 
 ## Documents Consulted
 
@@ -96,7 +72,7 @@ representation of the labels as follows:
 Accessed May 3, 2025. [https://www.historians.org/resource/collaboration/][114]
 
 2. International Committee of Medical Journal Editors (ICMJE). 2023. "Defining the
-Role of Authors and Contributors" the *Recommendations for the Conduct, Reporting,
+Role of Authors and Contributors," in the *Recommendations for the Conduct, Reporting,
 Editing, and Publication of Scholarly Work in Medical Journals*. Updated May 2023.
 [https://www.icmje.org/recommendations/][113].
 
@@ -114,7 +90,7 @@ in Different Disciplines][112].” Journal of Informetrics 4, no. 4 (October 1, 
 https://forrt.org/glossary/vbeta/first-last-author-emphasis-norm-fla/.
 
 [111]: https://psycnet.apa.org/fulltext/1994-11404-001.html
-[112]: https://www-sciencedirect-com.ezproxy.cul.columbia.edu/science/article/pii/S1751157710000647?via%3Dihub
+[112]: https://www.sciencedirect.com/science/article/pii/S1751157710000647
 [113]: https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html
 [114]: https://www.historians.org/resource/collaboration/
 [115]: https://credit.niso.org/implementing-credit/

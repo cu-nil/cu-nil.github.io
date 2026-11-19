@@ -1,4 +1,7 @@
 ---
+memo_no: "003"
+pdf: /memos/digital-ethno-cunil.pdf
+thumb: 003.png
 title: "What is Digital Ethnography? [draft]"
 author: "CUNIL"
 date: "December 29, 2025"
@@ -9,8 +12,8 @@ header-includes: |
   \usepackage{graphicx}
   \memoto{Recipient Name}
   \memofrom{Narrative Intelligence Lab}
-  \memosubject{Memo 3, What is Digital Ethnography?}
-  \memodate{\today}
+  \memosubject{Memo 003: What is Digital Ethnography?}
+  \memodate{December 29, 2025}
   \memologo{\includegraphics[width=0.3\textwidth]{assets/cunil-logo.png}}
 ---
 

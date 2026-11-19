@@ -1,4 +1,7 @@
 ---
+memo_no: "001"
+pdf: /memos/imprints/1-study-design.pdf
+thumb: 001.png
 title: "On Study Design in Computational Humanities"
 author: "Dennis Yi Tenen"
 date: "May 10, 2025"
@@ -10,8 +13,8 @@ header-includes: |
   \usepackage{graphicx}
   \memoto{Recipient Name}
   \memofrom{Dennis Yi Tenen}
-  \memosubject{Note 1: On Study Design in Computational Humanities}
-  \memodate{\today}
+  \memosubject{Memo 001: On Study Design in Computational Humanities}
+  \memodate{May 10, 2025}
   \memologo{\includegraphics[width=0.3\textwidth]{assets/cunil-logo.png}}
 ---
 
@@ -64,3 +67,5 @@ books" in losing sight of the underlying social or linguistic dynamics. The vagr
 culture force me to think contextually: in terms of processes, timelines, customs, genres,
 relationships, narratives, etc. And I would like to remain firmly grounded in that realm when
 doing computational research.
+
+\memosignoff{DENTEN}{Director}
