@@ -19,7 +19,23 @@ header-includes: |
 
 \vspace*{1cm}
 
-## AI Usage Statement
+Dear Friends,
+
+Somewhere between joy and despair lies the middle path of using technology in a way that
+answers to our ideals. What are they? Have we had this conversation? Pragmatically, the
+convergence on a shared set of practices requires externalization. Let's agree at least that
+our very interest in collective labor implies some sort of a bodily commitment to "being
+there." Let's begin our work then by being present to maintain a sense of human inputs. When
+starting a project let's ask what is interesting and why are we doing this, and is it worth our
+time? Somewhere at the end of that process, let's also make sure that we remain accountable,
+that we write in active voice and with a clear sense of agency and responsibility.
+
+The first and the last touch must remain human. What happens in the middle can be much more
+complicated. If you haven't done so, please familiarize yourself with the lab's [AI Harness](https://github.com/cu-nil/cunil-research-template). I would also appreciate your thoughts
+on our AI Usage statement, submitted alongside our articles from the collective voice (and
+therefore in your name).
+
+# AI Usage Statement
 
 This work was written under "human first, human last" principles, meaning that the authors
 take responsibility for all information going in and out of the project. We take credit
