@@ -18,6 +18,8 @@ header-includes: |
   \memologo{\includegraphics[width=0.3\textwidth]{assets/cunil-logo.png}}
 ---
 
+\vspace*{2.5cm}
+
 Reading Thad Dunning's *Natural Experiments in the Social Science* (Cambridge, 2012) I am
 particularly struck by his discussion of study design. "How can causal inference be improved?"
 he asks on page 4 and answers: "In seeking to answer such questions, I place central emphasis
