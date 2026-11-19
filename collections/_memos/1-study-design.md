@@ -20,7 +20,7 @@ header-includes: |
 
 \vspace*{2.5cm}
 
-Reading Thad Dunning's *Natural Experiments in the Social Science* (Cambridge, 2012) I am
+Reading Thad Dunning's *Natural Experiments in the Social Sciences* (Cambridge, 2012) I am
 particularly struck by his discussion of study design. "How can causal inference be improved?"
 he asks on page 4 and answers: "In seeking to answer such questions, I place central emphasis
 on natural experiments as a 'design-based' method of research — one in which control over
@@ -71,3 +71,24 @@ relationships, narratives, etc. And I would like to remain firmly grounded in th
 doing computational research.
 
 \memosignoff{DENTEN}{Director}
+
+## Works Cited
+
+- Achen, Christopher H. "Let's Put Garbage-Can Regressions and Garbage-Can Probits Where
+  They Belong." *Conflict Management and Peace Science* 22, no. 4 (2005): 327–39.
+  https://doi.org/10.1080/07388940500339167.
+- Dunning, Thad. *Natural Experiments in the Social Sciences: A Design-Based Approach.*
+  Cambridge: Cambridge University Press, 2012.
+
+## Further Reading
+
+- Gelman, Andrew, and Aki Vehtari. *Active Statistics: Stories, Games, Problems, and Hands-on
+  Demonstrations for Applied Regression and Causal Inference.* Cambridge: Cambridge University
+  Press, 2024.
+- Hargittai, Eszter, ed. *Research Confidential: Solutions to Problems Most Social Scientists
+  Pretend They Never Have.* Ann Arbor: University of Michigan Press, 2009.
+- Huntington-Klein, Nick. *The Effect: An Introduction to Research Design and Causality.* 2nd ed.
+  Boca Raton: Chapman & Hall/CRC, 2025.
+- Knobe, Joshua, and Shaun Nichols, eds. *Experimental Philosophy.* New York: Oxford University
+  Press, 2008.
+- Tukey, John W. *Exploratory Data Analysis.* Reading, MA: Addison-Wesley, 1977.
