@@ -89,6 +89,6 @@ doing computational research.
   Pretend They Never Have.* Ann Arbor: University of Michigan Press, 2009.
 - Huntington-Klein, Nick. *The Effect: An Introduction to Research Design and Causality.* 2nd ed.
   Boca Raton: Chapman & Hall/CRC, 2025.
-- Knobe, Joshua, and Shaun Nichols, eds. *Experimental Philosophy.* New York: Oxford University
-  Press, 2008.
+- Knobe, Joshua, and Shaun Nichols. "An Experimental Philosophy Manifesto." In *Experimental
+  Philosophy*, edited by Joshua Knobe and Shaun Nichols. New York: Oxford University Press, 2008.
 - Tukey, John W. *Exploratory Data Analysis.* Reading, MA: Addison-Wesley, 1977.
