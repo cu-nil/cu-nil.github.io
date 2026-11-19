@@ -31,7 +31,7 @@ time? Somewhere at the end of that process, let's also make sure that we remain 
 that we write in active voice and with a clear sense of agency and responsibility.
 
 The first and the last touch must remain human. What happens in the middle can be much more
-complicated. If you haven't done so, please familiarize yourself with the lab's [AI Harness](https://github.com/cu-nil/cunil-research-template). I would also appreciate your thoughts
+complicated. If you haven't done so, please familiarize yourself with the lab's AI Harness. I would also appreciate your thoughts
 on our AI Usage statement, submitted alongside our articles from the collective voice (and
 therefore in your name).
 
