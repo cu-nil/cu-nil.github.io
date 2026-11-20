@@ -22,7 +22,7 @@ header-includes: |
 Dear Friends,
 
 Somewhere between joy and despair lies the middle path of using technology in a way that
-answers to our ideals. What are they? Have we had this conversation? Pragmatically, the
+answers our ideals. What are they? Have we had this conversation? Pragmatically, the
 convergence on a shared set of practices requires externalization. Let's agree at least that
 our very interest in collective labor implies some sort of a bodily commitment to "being
 there." Let's begin our work then by being present and by maintaining a sense of human inputs.
