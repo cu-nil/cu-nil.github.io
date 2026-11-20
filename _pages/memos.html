@@ -8,7 +8,7 @@ permalink: /memos/
 
 {% assign memos = site.memos | where_exp: "m", "m.pdf" | sort: "memo_no" %}
 
-<div class="mx-4 lg:mx-8 mb-8 lg:mb-16">
+<div class="mx-4 lg:mx-8 mt-8 lg:mt-12 mb-8 lg:mb-16">
   <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-10">
     {% for memo in memos %}
       <li>
