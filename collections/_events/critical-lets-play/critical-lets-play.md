@@ -1,7 +1,9 @@
 ---
 highlight: true
 title: Critical Let's Play
-date: 2025-01-01
+date: 2025-03-07
+hour: "3–5 PM"
+location: "Philosophy 302"
 tag: event
 image: letsplay.png
 image-alt: "Let's Play Poster"
