@@ -1,13 +1,15 @@
 # Publications shown on the home page and /research.
 # One entry per work, newest first. `cite` is the full citation in Markdown (Chicago style).
 # Entries with `card:` also appear as a memo-style card at the top
+# (stamp: one short word or two above the thumbnail; venue: shown under the title)
 # (pdf + thumb give a first-page thumbnail; without them the card is typeset).
 # Only published or accepted work goes here: nothing under review.
 
 - year: 2027
   cite: 'Tenen, Dennis Yi, Yingyi Shu, and Narrative Intelligence Lab. "The Standardization of Fast Fiction: Methods and Preliminary Results." In *Proceedings of Computational Humanities Research 2027*. Anthology of Computers and the Humanities, forthcoming.'
   card:
-    label: "Computational Humanities Research 2027 · Short Paper"
+    stamp: "Short Paper"
+    venue: "Computational Humanities Research 2027"
     title: "The Standardization of Fast Fiction: Methods and Preliminary Results"
     authors: "Dennis Yi Tenen, Yingyi Shu, and Narrative Intelligence Lab"
     pdf: /assets/publications/fast-fiction-chr2027-DRAFT.pdf
@@ -17,14 +19,16 @@
 - year: 2026
   cite: 'Tenen, Dennis Yi. "Agency as Metaphor." *Harvard Review of Philosophy*, forthcoming.'
   card:
-    label: "Harvard Review of Philosophy · Forthcoming"
+    stamp: "Forthcoming"
+    venue: "Harvard Review of Philosophy"
     title: "Agency as Metaphor"
     authors: "Dennis Yi Tenen"
 
 - year: 2026
   cite: 'Hegele, Arden, Dennis Yi Tenen, Elena Fratto, and Rishi Goyal. "The Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities." *Narrative*, forthcoming.'
   card:
-    label: "Narrative · Forthcoming"
+    stamp: "Forthcoming"
+    venue: "Narrative"
     title: "The Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities"
     authors: "Arden Hegele, Dennis Yi Tenen, Elena Fratto, and Rishi Goyal"
     pdf: /assets/publications/vaccine-hesitancy-DRAFT.pdf

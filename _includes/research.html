@@ -11,26 +11,30 @@
   <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-10">
     {% for p in cards %}
       {% assign c = p.card %}
-      <li>
-        {% if c.pdf %}<a href="{{ c.pdf }}" class="group block">{% else %}<div class="block">{% endif %}
-          <div class="font-mono text-xs uppercase tracking-widest text-gray-600 border-b border-gray-400 pb-1 mb-2">
-            {{ c.label }}
+      {%- comment -%} subgrid: each card spans 3 shared rows (label, thumbnail, caption),
+        so labels of different lengths take equal height and the thumbnails line up. {%- endcomment -%}
+      <li class="row-span-3 grid grid-rows-subgrid gap-y-2">
+        {% if c.pdf %}<a href="{{ c.pdf }}" class="group row-span-3 grid grid-rows-subgrid gap-y-2">{% else %}<div class="row-span-3 grid grid-rows-subgrid gap-y-2">{% endif %}
+          <div class="self-end font-mono text-xs uppercase tracking-widest text-gray-600 border-b border-gray-400 pb-1">
+            {{ c.venue }} · {{ c.stamp }}
           </div>
           {% if c.thumb %}
             <img src="/assets/images/publications/{{ c.thumb }}" alt="First page of {{ c.title }}"
                  class="w-full border border-gray-300 shadow-sm group-hover:border-sky-700 group-hover:shadow-md transition">
           {% else %}
             <div class="w-full aspect-[8.5/11] border border-gray-300 shadow-sm bg-white p-4 flex flex-col">
-              <div class="font-mono text-[0.6rem] uppercase tracking-widest text-gray-500">Forthcoming</div>
+              <div class="font-mono text-[0.6rem] uppercase tracking-widest text-gray-500">{{ c.stamp }}</div>
               <div class="font-ibmserif text-sm leading-snug mt-6">{{ c.title }}</div>
               <div class="font-ibmserif italic text-xs text-gray-600 mt-2">{{ c.authors }}</div>
             </div>
           {% endif %}
-          <div class="mt-2 font-ibmsans font-bold text-sm leading-snug{% if c.pdf %} group-hover:text-sky-700{% endif %}">
-            {{ c.title }}
-          </div>
-          <div class="font-mono text-xs text-gray-600 mt-1">
-            {{ p.year }}{% if c.pdf %} · PDF{% endif %}{% if c.note %} · {{ c.note }}{% endif %}
+          <div>
+            <div class="font-ibmsans font-bold text-sm leading-snug{% if c.pdf %} group-hover:text-sky-700{% endif %}">
+              {{ c.title }}
+            </div>
+            <div class="font-mono text-xs text-gray-600 mt-1">
+              {{ p.year }}{% if c.pdf %} · PDF{% endif %}{% if c.note %} · {{ c.note }}{% endif %}
+            </div>
           </div>
         {% if c.pdf %}</a>{% else %}</div>{% endif %}
       </li>
