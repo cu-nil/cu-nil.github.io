@@ -3,6 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500');
 @import "tailwindcss";
 
 @plugin "@tailwindcss/typography";
@@ -10,6 +11,7 @@
 @theme {
   --font-ibmserif: "IBM Plex Serif", serif;
   --font-ibmsans: "IBM Plex Sans", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
 @layer base {
@@ -19,13 +21,20 @@
 }
 
 .jagged-right {
+  /* torn right edge: slightly irregular teeth of fixed depth (about 8px) */
   clip-path: polygon(
     0 0,
-    93% 0,
-    100% 20%,
-    93% 40%,
-    100% 60%,
-    93% 80%,
+    calc(100% - 8px) 0,
+    100% 8%,
+    calc(100% - 6px) 17%,
+    100% 26%,
+    calc(100% - 10px) 36%,
+    100% 45%,
+    calc(100% - 7px) 54%,
+    100% 63%,
+    calc(100% - 9px) 73%,
+    100% 82%,
+    calc(100% - 6px) 91%,
     100% 100%,
     0 100%
   );

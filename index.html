@@ -21,16 +21,4 @@ title: "Home"
 
 </div>
 
-    {% assign all_projects = site.projects | size %}
-    {% assign highlighted_projects = site.projects | where: "highlight", true | size %}
-    {% assign project_count_text = "Showing " | append: highlighted_projects | append: " out of " | append: all_projects | append: " projects." %}
-
-    {% include section-break.html section="Featured projects" subsection=project_count_text %}
-
-<div>
-
-    {% assign projects = site.projects | sort: "date" | reverse | where: "highlight",true %}
-    {% include collection.html
-       show-category-name=true
-       projects=projects %}
-</div>
+{% include research.html %}

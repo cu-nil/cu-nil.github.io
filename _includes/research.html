@@ -1,0 +1,54 @@
+{%- comment -%}
+  Research: recent work as memo-style cards, then the full bibliography.
+  Content comes from _data/publications.yml. Used on the home page and on /research.
+{%- endcomment -%}
+{% assign pubs = site.data.publications %}
+{% assign cards = pubs | where_exp: "p", "p.card" %}
+
+{% include section-break.html section="Recent" %}
+
+<div class="mx-4 lg:mx-8 mt-8 lg:mt-12 mb-8 lg:mb-12">
+  <ul class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-10">
+    {% for p in cards %}
+      {% assign c = p.card %}
+      <li>
+        {% if c.pdf %}<a href="{{ c.pdf }}" class="group block">{% else %}<div class="block">{% endif %}
+          <div class="font-mono text-xs uppercase tracking-widest text-gray-600 border-b border-gray-400 pb-1 mb-2">
+            {{ c.label }}
+          </div>
+          {% if c.thumb %}
+            <img src="/assets/images/publications/{{ c.thumb }}" alt="First page of {{ c.title }}"
+                 class="w-full border border-gray-300 shadow-sm group-hover:border-sky-700 group-hover:shadow-md transition">
+          {% else %}
+            <div class="w-full aspect-[8.5/11] border border-gray-300 shadow-sm bg-white p-4 flex flex-col">
+              <div class="font-mono text-[0.6rem] uppercase tracking-widest text-gray-500">Forthcoming</div>
+              <div class="font-ibmserif text-sm leading-snug mt-6">{{ c.title }}</div>
+              <div class="font-ibmserif italic text-xs text-gray-600 mt-2">{{ c.authors }}</div>
+            </div>
+          {% endif %}
+          <div class="mt-2 font-ibmsans font-bold text-sm leading-snug{% if c.pdf %} group-hover:text-sky-700{% endif %}">
+            {{ c.title }}
+          </div>
+          <div class="font-mono text-xs text-gray-600 mt-1">
+            {{ p.year }}{% if c.pdf %} · PDF{% endif %}{% if c.note %} · {{ c.note }}{% endif %}
+          </div>
+        {% if c.pdf %}</a>{% else %}</div>{% endif %}
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="mt-12 lg:mt-20">
+{% include section-break.html section="Publications" %}
+</div>
+
+<div class="mx-4 lg:mx-8 mt-6 mb-8 lg:mb-12">
+  <ul class="font-ibmserif text-sm divide-y divide-gray-200">
+    {% for p in pubs %}
+      <li class="py-2 grid grid-cols-[3.5rem_1fr] gap-x-3">
+        <span class="font-mono text-xs text-gray-600 pt-0.5">{{ p.year }}</span>
+        <span class="pl-4 -indent-4">{{ p.cite | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

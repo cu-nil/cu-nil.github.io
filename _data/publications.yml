@@ -1,0 +1,74 @@
+# Publications shown on the home page and /research.
+# One entry per work, newest first. `cite` is the full citation in Markdown (Chicago style).
+# Entries with `card:` also appear as a memo-style card at the top
+# (pdf + thumb give a first-page thumbnail; without them the card is typeset).
+# Only published or accepted work goes here: nothing under review.
+
+- year: 2027
+  cite: 'Tenen, Dennis Yi, Yingyi Shu, and Narrative Intelligence Lab. "The Standardization of Fast Fiction: Methods and Preliminary Results." In *Proceedings of Computational Humanities Research 2027*. Anthology of Computers and the Humanities, forthcoming.'
+  card:
+    label: "CHR 2027 · Short Paper"
+    title: "The Standardization of Fast Fiction: Methods and Preliminary Results"
+    authors: "Dennis Yi Tenen, Yingyi Shu, and Narrative Intelligence Lab"
+    pdf: /assets/publications/fast-fiction-chr2027-DRAFT.pdf
+    thumb: fast-fiction-chr2027.png
+    note: "Draft"
+
+- year: 2026
+  cite: 'Tenen, Dennis Yi. "Agency as Metaphor." *Harvard Review of Philosophy*, forthcoming.'
+  card:
+    label: "Harvard Review of Philosophy · Forthcoming"
+    title: "Agency as Metaphor"
+    authors: "Dennis Yi Tenen"
+
+- year: 2026
+  cite: 'Tenen, Dennis Yi, with Arden Hegele, Rishi Goyal, and Elena Fratto. "Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities." *Narrative*, forthcoming.'
+  card:
+    label: "Narrative · Forthcoming"
+    title: "Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities"
+    authors: "Dennis Yi Tenen, with Arden Hegele, Rishi Goyal, and Elena Fratto"
+
+- year: Web
+  cite: 'Korotkov, Georgii, and Valeriia Korotkova. *Vsesvit Digital Archive*. [vsesvit.vercel.app](https://vsesvit.vercel.app/). Based on Oleg Mykytenko and Halina Hamaliy, "Review of World Literature *Vsesvit* (The World) in XX Century (1925–2000)," *Bibliographic Index to Publications* (Kyiv, 2004).'
+
+- year: 2024
+  cite: 'Tenen, Dennis Yi. "Author—Anonymous and Distributed." *New Techno Humanities* 4, no. 1 (2024).'
+
+- year: 2024
+  cite: 'Tenen, Dennis Yi. "Materiality." In *The Cambridge Companion to Literature in a Digital Age*, edited by Adam Hammond. Cambridge: Cambridge University Press, 2024.'
+
+- year: 2022
+  cite: 'Tenen, Dennis Yi. "Distributed Agency in the Novel." *New Literary History* 54, no. 1 (2022): 903–37. https://doi.org/10.1353/nlh.2022.a898333.'
+
+- year: 2022
+  cite: 'Tenen, Dennis Yi. "Anonymous, Massively Collaborative, Trans-human." In *Rethinking Authorship in Comparative and Historical Perspectives* [in Japanese], edited by Haruo Shirane and Tomi Suzuki. Tokyo: Iwanami Shoten, 2022.'
+
+- year: 2021
+  cite: 'Tenen, Dennis Yi. "Reading Platforms: A Concise History of the Electronic Book." In *The Unfinished Book*, edited by Alexandra Gillespie and Deidre Shauna Lynch. Oxford: Oxford University Press, 2021.'
+
+- year: 2019
+  cite: 'Tenen, Dennis Yi. "The Emergence of American Formalism." *Modern Philology* 117, no. 2 (November 2019): 257–83.'
+
+- year: 2018
+  cite: 'Tenen, Dennis Yi. "Toward a Computational Archaeology of Fictional Space." *New Literary History* 49, no. 1 (2018): 119–47. https://doi.org/10.1353/nlh.2018.0005.'
+
+- year: 2017
+  cite: 'Tenen, Dennis Yi. "Archive." In *Literature: An Introduction to Theory and Analysis*, edited by Mads Rosendahl Thomsen et al., 299–310. London: Bloomsbury, 2017.'
+
+- year: 2017
+  cite: 'Tenen, Dennis Yi. "Visual-Quantitative Approaches to the Intellectual History of the Field." In *Futures of Comparative Literature*, edited by Ursula K. Heise et al., 258–66. London: Routledge, 2017.'
+
+- year: 2016
+  cite: 'Tenen, Dennis Yi, with John Simpson and Phillip Polefrone. "Critical Computing in the Humanities." In *Doing Digital Humanities: Practice, Training and Research*, edited by Ray Siemens et al., 85–103. London: Routledge, 2016.'
+
+- year: 2016
+  cite: 'Tenen, Dennis Yi. "Blunt Instrumentalism." In *Debates in the Digital Humanities 2016*, edited by Matthew K. Gold and Lauren F. Klein, 83–91. Minneapolis: University of Minnesota Press, 2016.'
+
+- year: 2014
+  cite: 'Tenen, Dennis Yi, and Maxwell Foxman. "Book Piracy as Peer Preservation." *Computational Culture* 4 (2014).'
+
+- year: 2014
+  cite: 'Tenen, Dennis Yi, and Grant Wythoff. "Sustainable Authorship in Plain Text Using Pandoc and Markdown." *The Programming Historian* (2014).'
+
+- year: 2014
+  cite: 'Tenen, Dennis Yi. "Stalin''s PowerPoint." *Modernism/modernity* 21, no. 1 (2014): 253–67.'

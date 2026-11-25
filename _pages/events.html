@@ -4,11 +4,11 @@ title: "Events"
 permalink: /events/
 ---
 
+{%- comment -%} Recent events as full cards, then the archive as a list. {%- endcomment -%}
 {% assign current = site.events | where_exp: "e", "e.archive == nil" | sort: "date" | reverse %}
 {% assign archive = site.events | where: "archive", "xpmethod" | sort: "date" | reverse %}
 
-{% assign events_count_text = "Showing all " | append: current.size | append: " events." %}
-{% include section-break.html section="Events" subsection=events_count_text %}
+{% include section-break.html section="Recent" %}
 
 <div>
   {% include collection.html
@@ -17,8 +17,10 @@ permalink: /events/
   %}
 </div>
 
+<div class="mt-12 lg:mt-20">
 {% assign archive_text = archive.size | append: " events from xpMethod, the lab's previous iteration." %}
 {% include section-break.html section="Event Archive" subsection=archive_text %}
+</div>
 
 <div class="mx-4 lg:mx-8 mt-6 mb-8 lg:mb-16">
   <ul class="font-ibmsans text-sm divide-y divide-gray-200">
