@@ -22,11 +22,14 @@
     authors: "Dennis Yi Tenen"
 
 - year: 2026
-  cite: 'Hegele, Arden, Dennis Yi Tenen, Rishi Goyal, and Elena Fratto. "Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities." *Narrative*, forthcoming.'
+  cite: 'Hegele, Arden, Dennis Yi Tenen, Elena Fratto, and Rishi Goyal. "The Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities." *Narrative*, forthcoming.'
   card:
     label: "Narrative · Forthcoming"
-    title: "Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities"
-    authors: "Arden Hegele, Dennis Yi Tenen, Rishi Goyal, and Elena Fratto"
+    title: "The Anatomy of Vaccine Hesitancy: Folk Skepticism as Worldview in the Language and Rhetoric of Online Communities"
+    authors: "Arden Hegele, Dennis Yi Tenen, Elena Fratto, and Rishi Goyal"
+    pdf: /assets/publications/vaccine-hesitancy-DRAFT.pdf
+    thumb: vaccine-hesitancy.png
+    note: "Draft"
 
 - year: Web
   cite: 'Korotkov, Georgii, and Valeriia Korotkova. *Vsesvit Digital Archive*. Accessed November 25, 2026. [vsesvit.vercel.app](https://vsesvit.vercel.app/). Based on Oleg Mykytenko and Halina Hamaliy, "Review of World Literature *Vsesvit* (The World) in XX Century (1925–2000)," *Bibliographic Index to Publications* (Kyiv, 2004).'
@@ -36,6 +39,9 @@
 
 - year: 2024
   cite: 'Tenen, Dennis Yi. "Materiality." In *The Cambridge Companion to Literature in a Digital Age*, edited by Adam Hammond. Cambridge: Cambridge University Press, 2024.'
+
+- year: 2024
+  cite: 'Eckert, Sierra, and Milan Terlunen. "What We Quote: Disciplinary History and the Textual Atmospheres of *Middlemarch*." *Victorian Studies* 66, no. 4 (2024): 557–84. https://doi.org/10.2979/vic.00193.'
 
 - year: 2022
   cite: 'Tenen, Dennis Yi. "Distributed Agency in the Novel." *New Literary History* 54, no. 1 (2022): 903–37. https://doi.org/10.1353/nlh.2022.a898333.'
@@ -64,6 +70,9 @@
 - year: 2016
   cite: 'Tenen, Dennis Yi. "Blunt Instrumentalism." In *Debates in the Digital Humanities 2016*, edited by Matthew K. Gold and Lauren F. Klein, 83–91. Minneapolis: University of Minnesota Press, 2016.'
 
+- year: 2016
+  cite: 'Reeve, Jonathan. "A Macro-Etymological Analysis of James Joyce''s *A Portrait of the Artist as a Young Man*." In *Reading Modernism with Machines*, edited by Shawna Ross and James O''Sullivan, 203–22. London: Palgrave Macmillan, 2016. https://doi.org/10.1057/978-1-137-59569-0_9.'
+
 - year: 2014
   cite: 'Tenen, Dennis Yi, and Maxwell Foxman. "Book Piracy as Peer Preservation." *Computational Culture* 4 (2014).'
 
@@ -72,3 +81,6 @@
 
 - year: 2014
   cite: 'Tenen, Dennis Yi. "Stalin''s PowerPoint." *Modernism/modernity* 21, no. 1 (2014): 253–67.'
+
+- year: 2014
+  cite: 'Sack, Graham Alexander. "Character Networks for Narrative Generation: Structural Balance Theory and the Emergence of Proto-Narratives." In *Complexity and the Human Experience: Modeling Complexity in the Humanities and Social Sciences*, edited by Paul A. Youngman and Mirsad Hadzikadic, 81–104. Singapore: Pan Stanford, 2014. https://doi.org/10.1201/b16877-7.'
