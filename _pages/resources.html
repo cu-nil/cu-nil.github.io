@@ -6,9 +6,11 @@ permalink: /resources/
 {%- comment -%} Content lives in _data/resources.yml. Same list style as the Event Archive. {%- endcomment -%}
 
 {% for group in site.data.resources %}
+{% if group.section %}
 <div class="{% unless forloop.first %}mt-12 lg:mt-20{% endunless %}">
 {% include section-break.html section=group.section %}
 </div>
+{% endif %}
 
 <div class="mx-4 lg:mx-8 mt-6 mb-8 lg:mb-12">
   <ul class="divide-y divide-gray-200">
