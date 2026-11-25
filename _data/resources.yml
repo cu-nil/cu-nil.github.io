@@ -93,3 +93,7 @@
       name: "Digital Humanities Engineering Center"
       url: https://www.digihumeng.org/
       note: "Affiliated with Kyungpook National University, the DHEC represents a paradigmatic convergence of computational methodologies and humanistic inquiry. Our research apparatus transcends conventional disciplinary boundaries, orchestrating sophisticated synthesis of natural language processing, algorithmic narrative theory, and cognitive architectures to fundamentally reconceptualize humanities scholarship."
+    - kind: Independent
+      name: "Free Computing Lab"
+      url: https://freecomputinglab.ohrg.org/
+      note: "Researches the nature of computing freedom: the role the computer could and should play in a society where freedom is flourishing, and a critically grounded practice of software production, development, and maintenance."
