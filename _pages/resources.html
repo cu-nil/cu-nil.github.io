@@ -3,172 +3,24 @@ title: Resources
 layout: default
 permalink: /resources/
 ---
+{%- comment -%} Content lives in _data/resources.yml. Same list style as the Event Archive. {%- endcomment -%}
 
-
-{% include section-break.html section='Resources' %}
-
-<div class="mt-3">
-
-    {% include card-title.html tag='Lab Resources' %}
-
-        <ul class="m-5 mb-9 space-y-2 font-ibmserif">
-
-            <li>
-                <a href="https://nil.columbia.edu/assets/cunil-founding-letter.pdf" class="italic
-                font-bold">"Lab Founding Goals & Description"</a> represents the vision of the
-                lab's activities at the time of its founding.
-            </li>
-
-            <li>
-                <a href="https://github.com/cu-nil/chnotes/blob/master/pages/lab-culture.md"
-                class="italic font-bold">"Lab Code of Conduct"</a> outlines guidelines and
-                principles for participation in lab activities.
-           </li>
-
-            <li>
-                <a href="https://github.com/cu-nil/chnotes/blob/master/pages/author.md"
-                class="italic font-bold">"CUNIL Co-authorship Attribution Guidelines"</a> 
-                articulates a set of guidelines for determining author order, assigning roles,
-                setting clear expectations, and crediting fairly in a varied collaborative
-                environment.
-            </li>
-
-            <li>
-                <a href="https://github.com/cu-nil/chnotes/blob/master/README.md" class="italic
-                font-bold">"CUNIL Notes in the Computational Humanities"</a> contains working
-                notes, tutorials, manuals, and other "local knowledge" materials from
-                Columbia's Narrative Intelligence Lab.
-            </li>
-
-        </ul>
-
-    {% include card-title.html tag='Journals & Indexed Conferences' %}
-
-    <ul class="m-5 mb-9 space-y-2 font-ibmserif">
-
-        <li>
-            <a href="https://ohiostatepress.org/Narrative.html" class="italic
-            font-bold">Narrative</a> is the official journal of International Society for the Study
-            of Narrative. Its mission is to publish essays that contribute to both narrative theory
-            and the interpretation of individual narratives.
-        </li>
-
-        <li>
-            <a href="https://www.cambridge.org/core/journals/computational-humanities-research"
-            class="italic font-bold">Journal of Computational Humanities Research (CHR)</a>
-            is an open access journal in the computational humanities, publishing
-            transdisciplinary papers that are grounded in humanities research questions and use
-            computational, quantitative methodologies to analyse humanities data in its various
-            forms.
-
-        </li>
-
-        <li>
-            <a href="https://computational-humanities-research.org/conference/" class="italic
-            font-bold">
-                Proceedings of the Computational Humanities Research Conference
-            </a>
-            indexes the yearly conference of the Computational Humanities Research community.
-
-        </li>
-
-    </ul>
-
-    {% include card-title.html tag='Partners & Sister Labs' %}
-
-    <ul class="m-5 space-y-2 font-ibmserif">
-
-        <li>
-            <a href="https://incite.columbia.edu/events-series/narrative-workshops"
-             class="font-bold">
-                The Narrative Workshop 
-            </a>
-
-            at Columbia's Incite Institute assembles researchers across disciplines to discuss narrative
-            from different theoretical and methodological perspectives.
-
-        </li>
-
-        <li>
-            <a href="https://samsci.org/"
-             class="font-bold">
-                SKKU Computation Humanities + AI Pilot Program
-            </a>
-
-        is an intensive summer program providing advanced training in computational methods for
-        scholars in the humanities, social sciences, informatics, and human-computer
-        interaction.
-
-        </li>
-
-
-        <li>
-            <a href="https://chc.au.dk/" class="font-bold">
-                Center for Humanities Computing
-            </a>
-
-            at Aarhus University, Denmark advances research at the intersection of the
-            humanities, language technology, artificial intelligence, agent-based modelling,
-            and cultural dynamics.
-
-        </li>
-
-        <li>
-            <a href="https://irlhumanities.org/" class="font-bold">
-                Immersive Realities Labs for the humanities
-            </a>
-
-            an independent workgroup for digital and experimental humanities directed by Marisa
-            Parham out at MITH.
-
-        </li>
-
-        <li>
-            <a href="https://mlml.io/" class="font-bold">
-                Meta Lab
-            </a>
-
-            an idea foundry, knowledge-design lab, and production studio experimenting in the
-            networked arts and humanities, Harvard University.
-
-        </li>
-
-        <li>
-            <a href="https://litlab.kaist.ac.kr/"
-             class="font-bold">
-                KAIST LitLab 
-            </a>
-
-            reimagines literary studies for the digital age, exploring innovative intersections
-            between literature, digital methods, and cultural analysis through our research.
-
-        </li>
-
-        <li>
-            <a href="https://www.digihumeng.org/"
-             class="font-bold">
-                https://www.digihumeng.org/
-            </a>
-
-            affiliated with Kyungpook National University, the DHEC represents a paradigmatic
-            convergence of computational methodologies and humanistic inquiry. Our research
-            apparatus transcends conventional disciplinary boundaries, orchestrating
-            sophisticated synthesis of natural language processing, algorithmic narrative
-            theory, and cognitive architectures to fundamentally reconceptualize humanities
-            scholarship.
-
-        </li>
-
-        <!--<li>
-            <a href="https://junting-huang.github.io/experimental-criticism-lab-site/">
-                SUNY Experimental Criticism Lab
-            </a>
-
-            reimagines literary studies for the digital age, exploring innovative intersections
-            between literature, digital methods, and cultural analysis through our research.
-
-        </li>-->
-
-    </ul>
+{% for group in site.data.resources %}
+<div class="{% unless forloop.first %}mt-12 lg:mt-20{% endunless %}">
+{% include section-break.html section=group.section %}
 </div>
 
+<div class="mx-4 lg:mx-8 mt-6 mb-8 lg:mb-12">
+  <ul class="divide-y divide-gray-200">
+    {% for r in group.items %}
+      <li class="py-2 grid grid-cols-[6.5rem_1fr] gap-x-3">
+        <span class="font-mono text-xs text-gray-600 uppercase pt-0.5">{{ r.kind }}</span>
+        <div>
+          <a href="{{ r.url }}" class="font-ibmsans text-sm font-bold">{{ r.name }}</a>
+          <div class="font-ibmserif text-sm text-gray-700 mt-0.5">{{ r.note }}</div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endfor %}

@@ -1,0 +1,67 @@
+# Resources page. Three sections, each a list of entries:
+# kind (short monospace label on the left), name, url, note (one or two sentences).
+
+- section: "Lab Resources"
+  items:
+    - kind: PDF
+      name: "Lab Founding Goals & Description"
+      url: /assets/cunil-founding-letter.pdf
+      note: "Represents the vision of the lab's activities at the time of its founding."
+    - kind: Guide
+      name: "Lab Code of Conduct"
+      url: https://github.com/cu-nil/chnotes/blob/master/pages/lab-culture.md
+      note: "Outlines guidelines and principles for participation in lab activities."
+    - kind: Guide
+      name: "CUNIL Co-authorship Attribution Guidelines"
+      url: https://github.com/cu-nil/chnotes/blob/master/pages/author.md
+      note: "Articulates a set of guidelines for determining author order, assigning roles, setting clear expectations, and crediting fairly in a varied collaborative environment."
+    - kind: Notes
+      name: "CUNIL Notes in the Computational Humanities"
+      url: https://github.com/cu-nil/chnotes/blob/master/README.md
+      note: "Contains working notes, tutorials, manuals, and other \"local knowledge\" materials from Columbia's Narrative Intelligence Lab."
+
+- section: "Journals & Conferences"
+  items:
+    - kind: Journal
+      name: "Narrative"
+      url: https://ohiostatepress.org/Narrative.html
+      note: "The official journal of the International Society for the Study of Narrative. Its mission is to publish essays that contribute to both narrative theory and the interpretation of individual narratives."
+    - kind: Journal
+      name: "Journal of Computational Humanities Research (CHR)"
+      url: https://www.cambridge.org/core/journals/computational-humanities-research
+      note: "An open access journal in the computational humanities, publishing transdisciplinary papers that are grounded in humanities research questions and use computational, quantitative methodologies to analyse humanities data in its various forms."
+    - kind: Proceedings
+      name: "Proceedings of the Computational Humanities Research Conference"
+      url: https://computational-humanities-research.org/conference/
+      note: "Indexes the yearly conference of the Computational Humanities Research community."
+
+- section: "Partners & Sister Labs"
+  items:
+    - kind: Columbia
+      name: "The Narrative Workshop"
+      url: https://incite.columbia.edu/events-series/narrative-workshops
+      note: "At Columbia's Incite Institute, assembles researchers across disciplines to discuss narrative from different theoretical and methodological perspectives."
+    - kind: SKKU
+      name: "SKKU Computation Humanities + AI Pilot Program"
+      url: https://samsci.org/
+      note: "An intensive summer program providing advanced training in computational methods for scholars in the humanities, social sciences, informatics, and human-computer interaction."
+    - kind: Aarhus
+      name: "Center for Humanities Computing"
+      url: https://chc.au.dk/
+      note: "At Aarhus University, Denmark, advances research at the intersection of the humanities, language technology, artificial intelligence, agent-based modelling, and cultural dynamics."
+    - kind: MITH
+      name: "Immersive Realities Labs for the Humanities"
+      url: https://irlhumanities.org/
+      note: "An independent workgroup for digital and experimental humanities directed by Marisa Parham out at MITH."
+    - kind: Harvard
+      name: "Meta Lab"
+      url: https://mlml.io/
+      note: "An idea foundry, knowledge-design lab, and production studio experimenting in the networked arts and humanities, Harvard University."
+    - kind: KAIST
+      name: "KAIST LitLab"
+      url: https://litlab.kaist.ac.kr/
+      note: "Reimagines literary studies for the digital age, exploring innovative intersections between literature, digital methods, and cultural analysis through our research."
+    - kind: KNU
+      name: "Digital Humanities Engineering Center"
+      url: https://www.digihumeng.org/
+      note: "Affiliated with Kyungpook National University, the DHEC represents a paradigmatic convergence of computational methodologies and humanistic inquiry. Our research apparatus transcends conventional disciplinary boundaries, orchestrating sophisticated synthesis of natural language processing, algorithmic narrative theory, and cognitive architectures to fundamentally reconceptualize humanities scholarship."
