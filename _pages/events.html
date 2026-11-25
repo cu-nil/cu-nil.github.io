@@ -4,14 +4,29 @@ title: "Events"
 permalink: /events/
 ---
 
-{% assign all_events = site.events | size %}
-{% assign events_count_text = "Showing all " | append: all_events | append: " events." %}
+{% assign current = site.events | where_exp: "e", "e.archive == nil" | sort: "date" | reverse %}
+{% assign archive = site.events | where: "archive", "xpmethod" | sort: "date" | reverse %}
+
+{% assign events_count_text = "Showing all " | append: current.size | append: " events." %}
 {% include section-break.html section="Events" subsection=events_count_text %}
 
 <div>
-  {% assign events = site.events | sort: "date" | reverse %}
   {% include collection.html
       show-category-name=true
-      projects=events
+      projects=current
   %}
+</div>
+
+{% assign archive_text = archive.size | append: " events from xpMethod, the lab's previous iteration." %}
+{% include section-break.html section="Event Archive" subsection=archive_text %}
+
+<div class="mx-4 lg:mx-8 mt-6 mb-8 lg:mb-16">
+  <ul class="font-ibmsans text-sm divide-y divide-gray-200">
+    {% for event in archive %}
+      <li class="py-1.5 grid grid-cols-[6.5rem_1fr] gap-x-3">
+        <span class="font-mono text-xs text-gray-600 pt-0.5">{{ event.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ event.url }}">{{ event.title }}{% if event.type %} <span class="font-mono text-xs text-gray-500 uppercase">· {{ event.type }}</span>{% endif %}</a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

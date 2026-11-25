@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{%- comment -%} Events from xpMethod, the lab's previous iteration (2014-2020), kept as a record. {%- endcomment -%}
+
+{% include section-break.html section="Event Archive" subsection="From xpMethod, the lab's previous iteration." %}
+
+<div class="mx-4 lg:mx-8 mt-6 mb-8 lg:mb-16 max-w-3xl">
+
+  <div class="font-mono text-xs uppercase tracking-widest text-gray-600 border-b border-gray-400 pb-1 mb-3">
+    {{ page.date | date: "%Y-%m-%d" }}{% if page.type %} · {{ page.type }}{% endif %}
+  </div>
+
+  <h2 class="font-ibmsans font-bold text-xl">{{ page.title }}</h2>
+
+  <table class="font-mono text-xs text-gray-700 mt-2">
+    {% if page.hour %}<tr><td class="pr-3 align-top">Time:</td><td>{{ page.hour }}</td></tr>{% endif %}
+    {% if page.location %}<tr><td class="pr-3 align-top">Place:</td><td>{{ page.location }}</td></tr>{% endif %}
+    {% if page.participants %}<tr><td class="pr-3 align-top">With:</td><td>{{ page.participants | join: ", " }}</td></tr>{% endif %}
+  </table>
+
+  {% if page.prompt %}
+    <p class="font-ibmserif italic border-l-2 border-gray-400 pl-3 my-4">{{ page.prompt }}</p>
+  {% endif %}
+
+  <div class="prose-sm md:prose-base font-ibmserif">
+    {{ content }}
+  </div>
+
+  {% if page.images %}
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-3 mt-6">
+      {% for image in page.images %}
+        <a href="/assets/images/events/xpmethod/{{ image }}">
+          <img src="/assets/images/events/xpmethod/{{ image }}" alt="" loading="lazy"
+               class="w-full h-40 object-cover border border-gray-300">
+        </a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="font-mono text-xs text-gray-600 mt-8">
+    <a href="/events/">← Events</a> · <a href="{{ page.original }}">Original page</a>
+  </div>
+</div>
