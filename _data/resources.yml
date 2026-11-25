@@ -43,6 +43,10 @@
       url: https://www.psupress.org/Journals/jnls_Style.html
       note: "A quarterly from Penn State University Press on questions of style, stylistics, and poetics, including discourse analysis, genre, narrative, figuration, metrics, and rhetoric."
     - kind: Journal
+      name: "Digital Scholarship in the Humanities (DSH)"
+      url: https://academic.oup.com/dsh
+      note: "An international, peer reviewed journal which publishes original contributions on all aspects of digital scholarship in the Humanities including, but not limited to, the field of what is currently called the Digital Humanities."
+    - kind: Journal
       name: "Journal of Cultural Analytics"
       url: https://culturalanalytics.org/
       note: "A diamond open access journal publishing data-driven research about culture since 2016, now published by Princeton's Center for Digital Humanities."
