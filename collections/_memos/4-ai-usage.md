@@ -42,8 +42,8 @@ the collective voice (and therefore in your name). Make sure you agree and under
 This work was written under "human first, human last" principles, meaning that the authors
 take responsibility for all information going in and out of the project. We take credit
 for primary ideation, study design, literature review, archival research, analysis,
-authorship, interpretation, and study conclusions. The usage of AI tools is limited to routine
-preprocessing, research assistance, code automation, scoring, rapid prototyping, document
-preparation and editorial assistance.
+authorship, interpretation, and study conclusions. The use of AI tools is limited to routine
+preprocessing, search, code automation, mechanical checks of code and data, document
+preparation, and editorial assistance.
 
 \memosignoff{DENTEN}{Director}
