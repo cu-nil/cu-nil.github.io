@@ -8,6 +8,8 @@ prompt: 'In this lecture, Prof. Sukanta Chaudhuri will present Bichitra, the Onl
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2017-03-06-chaudhuri-bichitra.html
+speaker: Sukanta Chaudhuri
+talk: 'The Various Tagore: The Making Of A Database'
 ---
 
  Bichitra contains images of virtually all his manuscripts (47,500+

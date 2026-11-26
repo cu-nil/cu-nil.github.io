@@ -8,6 +8,8 @@ prompt: On the methodological assumptions of philology and some of its colonial 
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2015-02-18-nadia-altschul.html
+speaker: Nadia Altschul
+talk: On Philology
 ---
 
 ## On Philology

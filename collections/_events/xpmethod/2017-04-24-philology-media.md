@@ -8,6 +8,8 @@ prompt: Jeffrey Schnapp is the founder/faculty director of metaLAB (at) Harvard 
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2017-04-24-philology-media.html
+speaker: Jeffrey Schnapp
+talk: 'The Marriage of Philology and Media: Two 1960''s Media Archeologies'
 ---
 
 Originally trained as a medievalist, his recent books concern the modern and

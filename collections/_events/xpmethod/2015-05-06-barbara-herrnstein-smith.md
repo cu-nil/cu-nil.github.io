@@ -8,6 +8,8 @@ prompt: Since the 1940s, invocations of "close reading" (however understood) hav
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2015-05-06-barbara-herrnstein-smith.html
+speaker: Barbara Herrnstein Smith
+talk: What Was “Close Reading”?
 ---
 
 ## What Was “Close Reading”?

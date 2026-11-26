@@ -11,6 +11,8 @@ original: https://xpmethod.columbia.edu/events/2015-03-27-doernberg.html
 images:
 - bensqr.png
 - bitcoin.jpg
+speaker: Ben Doernberg
+talk: Bitcoin Basics
 ---
 
 We have limited space for this workshop. Please RSVP

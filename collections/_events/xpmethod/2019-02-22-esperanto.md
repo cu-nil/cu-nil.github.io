@@ -7,6 +7,8 @@ location: Butler Studio 208b
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2019-02-22-esperanto.html
+speaker: Steve Eichblatt
+talk: An Analysis of Root Word Similarity in Esperanto
 ---
 
 Steve Eichblatt, a computational language analyst and esperantist, will present

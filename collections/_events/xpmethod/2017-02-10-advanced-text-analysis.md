@@ -10,6 +10,8 @@ tags:
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2017-02-10-advanced-text-analysis.html
+speaker: Jonathan Reeve
+talk: Advanced Text Analysis with SpaCy and Scikit-Learn
 ---
 
 Led by [Jonathan Reeve](http://jonreeve.com). For more information about this and other NYCDH Week workshops see: <http://dhweek.nycdh.org/event/advanced-text-analysis-with-spacy-and-scikit-learn/>

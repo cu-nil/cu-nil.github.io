@@ -8,6 +8,8 @@ prompt: This lecture by Prof. Michael E. Sinatra, Université de Montréal, will
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2017-04-04-sinatra-leigh-hunt.html
+speaker: Michael E. Sinatra
+talk: Leigh Hunt, Textual Studies, and Digital Humanities
 ---
 
 This periodical was Hunt’s most famous publication as editor in the first two

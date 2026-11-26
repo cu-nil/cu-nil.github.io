@@ -8,6 +8,8 @@ prompt: We need a history and vision of the humanities capacious enough to see t
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2014-12-10-chad-wellmon.html
+speaker: Chad Wellmon
+talk: 'On Method: The Humanities in Full: Polemics Against the Two-Culture Fallacy'
 ---
 
 ## On Method: The Humanities in Full: Polemics Against the Two-Culture Fallacy

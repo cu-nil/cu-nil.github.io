@@ -8,6 +8,7 @@ prompt: Workshop on pandoc, a tool for authoring academic documents using plain 
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2015-03-25-john-macfarlane.html
+speaker: John MacFarlane
 ---
 
 [John MacFarlane,](http://johnmacfarlane.net/) chair of the philosophy department at the

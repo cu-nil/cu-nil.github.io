@@ -8,5 +8,6 @@ prompt: ' Universities were the freest places in human society to compute—and 
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2015-04-07-eben-moglen.html
+speaker: Eben Moglen
 ---
 

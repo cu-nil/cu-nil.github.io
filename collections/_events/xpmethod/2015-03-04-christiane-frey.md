@@ -8,6 +8,8 @@ prompt: The emergence of the discourse of modern science from a language of natu
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2015-03-04-christiane-frey.html
+speaker: Christiane Frey
+talk: 'The Poet, the Scientist, and the Bee: Before and Beyond the "Two Cultures'
 ---
 
 ## The Poet, the Scientist, and the Bee: Before and Beyond the "Two Cultures"

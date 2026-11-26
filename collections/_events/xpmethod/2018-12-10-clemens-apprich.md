@@ -7,6 +7,8 @@ location: Butler Studio 208b
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2018-12-10-clemens-apprich.html
+speaker: Clemens Apprich
+talk: Media and Paranoia
 ---
 
 Clemens Apprich is visiting research fellow at the [Global Emergent Media

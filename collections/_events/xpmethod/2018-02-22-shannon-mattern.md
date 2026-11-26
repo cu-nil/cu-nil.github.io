@@ -8,6 +8,8 @@ prompt: While the physical properties of our reading materials, and our material
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2018-02-22-shannon-mattern.html
+speaker: Shannon Mattern
+talk: 'Cabinet Logics: An Intellectual History of Book Furniture'
 ---
 
 ## Cabinet Logics: An Intellectual History of Book Furniture

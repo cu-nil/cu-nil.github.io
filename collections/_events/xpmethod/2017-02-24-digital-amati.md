@@ -10,6 +10,8 @@ archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2017-02-24-digital-amati.html
 images:
 - amati.png
+speaker: Harry Mairson
+talk: 'Digital Amati: Structure and Interpretation of Classical String Instruments'
 ---
 
 Digital Amati Project:

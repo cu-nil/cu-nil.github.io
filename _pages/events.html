@@ -26,7 +26,7 @@ permalink: /events/
     {% for event in archive %}
       <li class="py-1.5 grid grid-cols-[6.5rem_1fr] gap-x-3">
         <span class="font-mono text-xs text-gray-600 pt-0.5">{{ event.date | date: "%Y-%m-%d" }}</span>
-        <a href="{{ event.url }}">{{ event.title }}{% if event.type %} <span class="font-mono text-xs text-gray-500 uppercase">· {{ event.type }}</span>{% endif %}</a>
+        <a href="{{ event.url }}">{% if event.speaker %}<span class="font-semibold">{{ event.speaker }}</span>{% if event.talk %}: {{ event.talk }}{% endif %}{% else %}{{ event.title }}{% endif %}{% if event.type %} <span class="font-mono text-xs text-gray-500 uppercase">· {{ event.type }}</span>{% endif %}</a>
       </li>
     {% endfor %}
   </ul>

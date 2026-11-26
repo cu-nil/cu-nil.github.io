@@ -8,6 +8,8 @@ prompt: In this age of datafication, the quantification of human bodies, behavio
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2019-04-19-dhanashree-thorat.html
+speaker: Dhanashree Thorat
+talk: Decolonizing Data Regimes
 ---
 
 Dr. Dhanashree Thorat is a postdoctoral researcher in Digital Humanities at the Institute for

@@ -8,6 +8,8 @@ prompt: How can we model temporal relations and chronologies without a standard 
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2015-09-17-johanna-drucker.html
+speaker: Johanna Drucker
+talk: Representation and Non-linear Chronologies
 ---
 
 ## Representation and Non-linear Chronologies

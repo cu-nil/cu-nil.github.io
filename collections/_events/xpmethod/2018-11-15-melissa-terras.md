@@ -8,6 +8,8 @@ prompt: Most Digital Humanities activity revolves around text and textual proces
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2018-11-15-melissa-terras.html
+speaker: Melissa Terras
+talk: 'Just Digitization: Opportunities for Image Processing in Digital Humanities'
 ---
 
 Join us at the Butler Studio on November 15, 2018 at 4PM for a talk by Melissa Terras on new work on visual culture and computational possibilities. This event is organized by Digital Scholarship at Columbia Libraries and co-sponsored by xpMethod.

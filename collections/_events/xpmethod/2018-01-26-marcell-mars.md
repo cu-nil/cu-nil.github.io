@@ -8,5 +8,7 @@ prompt: Marcell Mars—media scholar, software developer, free culture advocate,
 layout: archive-event
 archive: xpmethod
 original: https://xpmethod.columbia.edu/events/2018-01-26-marcell-mars.html
+speaker: Marcell Mars
+talk: Public Library/Memory of the World
 ---
 
